@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c7bd20c-facb-4e91-a291-bdb1b39ca649">
+  <name>инкОтправкаСообщенийПриИзмененииЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка сообщений при изменении задачи</value>
+  </synonym>
+</mdclass:Role>

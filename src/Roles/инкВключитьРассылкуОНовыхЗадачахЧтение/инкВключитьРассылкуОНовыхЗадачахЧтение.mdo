@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84b41711-7e45-4d00-ac4a-659ea49c111b">
+  <name>инкВключитьРассылкуОНовыхЗадачахЧтение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Включить рассылку о новых задачах (Чтение)</value>
+  </synonym>
+</mdclass:Role>

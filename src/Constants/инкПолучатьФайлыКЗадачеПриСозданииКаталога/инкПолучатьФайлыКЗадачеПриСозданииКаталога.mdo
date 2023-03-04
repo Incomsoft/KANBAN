@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cc2c8e4-e27b-492f-a041-59fdb8150a22">
+  <producedTypes>
+    <managerType typeId="64b2fc5b-8ed1-47e8-af51-d489f6d67921" valueTypeId="a3130d14-821f-4d73-b5f5-5cc2639c5cfe"/>
+    <valueManagerType typeId="92216c4b-b521-4b18-b0e0-25a75f118db4" valueTypeId="5c3e15d7-624e-45d3-8156-41994da96beb"/>
+    <valueKeyType typeId="6369a22c-83af-4888-9519-80cfec4c9390" valueTypeId="b69a387c-8c2e-4f67-9d8e-37f26759f179"/>
+  </producedTypes>
+  <name>инкПолучатьФайлыКЗадачеПриСозданииКаталога</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получать файлы к задаче при создании каталога</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

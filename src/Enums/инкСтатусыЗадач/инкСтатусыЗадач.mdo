@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5322e2d5-5112-4b1c-85df-cacc06631bde">
+  <producedTypes>
+    <refType typeId="cc2f786d-7d30-4cce-8421-ce0399d4a676" valueTypeId="2b13bad8-f442-4cc6-9223-7d301c51e05c"/>
+    <listType typeId="3fdbbb87-3819-4307-8d42-0de64f0f9df6" valueTypeId="dcd14f5b-f8ac-4bcd-bb28-f7bb43379db0"/>
+    <managerType typeId="dbce15f2-e24a-41a1-90d9-54a5a9450289" valueTypeId="61cf2742-dc33-4e64-a08d-888da4f625ef"/>
+  </producedTypes>
+  <name>инкСтатусыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы задач</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d510dcf8-a6b0-489c-80f8-56542ce118be">
+    <name>КВыполнениюПауза</name>
+    <synonym>
+      <key>ru</key>
+      <value>К выполнению / Пауза</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="19a9958b-b486-4787-9575-3b5e58077718">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="086cf2ea-d056-4f15-899a-67688051fe17">
+    <name>Тестирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестирование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b838608b-89e7-4779-8eab-41da1da28997">
+    <name>Завершено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

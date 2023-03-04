@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41ad9e94-8ed6-473a-b369-f0f0b01d9a74">
+  <name>инкДоскаЗадачПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доска задач пользователей</value>
+  </synonym>
+</mdclass:Role>

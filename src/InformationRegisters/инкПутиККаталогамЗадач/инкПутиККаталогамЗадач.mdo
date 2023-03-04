@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52b118f0-295b-4ad3-9a27-ac9c8573e3fb">
+  <producedTypes>
+    <selectionType typeId="234bcb9b-c1d7-488c-b1f5-dc3a0061fd6a" valueTypeId="05b7eb08-800b-4910-90df-5135e73bd535"/>
+    <listType typeId="991faab5-0330-4695-be5a-96dfa11c6976" valueTypeId="5994cd15-b8f2-41c1-94a1-99821f0e0760"/>
+    <managerType typeId="ac5e9297-a563-4b35-9290-8b53b949de59" valueTypeId="db1d1875-2530-42f6-bbe5-cb615c656d7f"/>
+    <recordSetType typeId="9c95ab50-e2e1-4dc3-a48a-0831ee4a0da4" valueTypeId="2a9899db-98b2-48d3-b522-08385e9f0467"/>
+    <recordKeyType typeId="f21c613f-562b-409b-9c17-2346373b31c5" valueTypeId="e5fdd9f6-3d9c-4955-9349-0e19f33e4329"/>
+    <recordType typeId="d013403c-b0cf-47eb-a290-108eb900b1a4" valueTypeId="2fe48fbc-7a30-4db2-aac0-e5f8d97db302"/>
+    <recordManagerType typeId="a865b949-923a-4032-a7d7-89ca56546337" valueTypeId="b4bda307-44d8-4840-bc32-9efd415186b0"/>
+  </producedTypes>
+  <name>инкПутиККаталогамЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пути к каталогам задач (Инкомсофт)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.инкПутиККаталогамЗадач.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="2b8f1341-2696-4fbf-b46f-b415570e7551">
+    <name>ПроектКЗадаче</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект к задаче</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.инкПроектыКЗадачам</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="be64be87-99e0-44c1-bc03-651962dc125d">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="aea5dbb1-36fd-441b-93ff-dbc146fb10c1">
+    <name>Каталог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e111c631-f1d4-441b-bab8-52082dfa70a3">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

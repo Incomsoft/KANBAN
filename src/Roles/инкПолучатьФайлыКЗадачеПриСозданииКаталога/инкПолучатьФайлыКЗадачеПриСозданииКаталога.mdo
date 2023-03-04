@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d40a8f00-8e77-4ece-a53f-f7b3862e1705">
+  <name>инкПолучатьФайлыКЗадачеПриСозданииКаталога</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получать файлы к задаче при создании каталога</value>
+  </synonym>
+</mdclass:Role>

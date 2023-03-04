@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b65e833d-6f0d-4cde-a273-7ed38246a0f9">
+  <name>инкПроектыКЗадачамЧтение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инк проекты к задачам чтение</value>
+  </synonym>
+</mdclass:Role>

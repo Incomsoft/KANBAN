@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a30fc44d-c4f2-4b44-9899-d7f6a0149bd5">
+  <producedTypes>
+    <managerType typeId="e7f611dc-8b63-47d4-8bb6-3c4f54377f9d" valueTypeId="38a10f9f-ce8e-4fc4-887b-34611b8fd202"/>
+    <valueManagerType typeId="b7ca77fa-02cc-449f-b887-efb64d059125" valueTypeId="df4c5fb4-ab49-4e77-aadc-364c91b200ab"/>
+    <valueKeyType typeId="e03947c3-6eda-45b6-b14d-11b362793de4" valueTypeId="41d7f20e-5177-4a88-b588-14db68eb11f9"/>
+  </producedTypes>
+  <name>инкОтправкаСообщенийПриИзмененииЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка сообщений при изменении задачи</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46af6cd1-6a88-44ed-a472-03550ac10d24">
+  <name>инкПрисоединенныеФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Присоединенные файлы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DefinedType.ПрисоединенныйФайл</content>
+  <content>DefinedType.ПрисоединенныйФайлОбъект</content>
+  <content>DefinedType.ВладелецПрисоединенныхФайлов</content>
+  <content>DefinedType.ВладелецПрисоединенныхФайловОбъект</content>
+  <content>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайлов</content>
+  <content>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайловДокументовВзаимодействия</content>
+  <content>EventSubscription.ПереопределитьПолучаемуюФормуПрисоединенногоФайла</content>
+  <content>CommonTemplate.инкИнструкцияКДобавлениюПрисодединеннымФайлам</content>
+  <content>CommonModule.РаботаСФайламиВТомахСлужебный</content>
+  <parentSubsystem>Subsystem.инкСлужебные</parentSubsystem>
+</mdclass:Subsystem>

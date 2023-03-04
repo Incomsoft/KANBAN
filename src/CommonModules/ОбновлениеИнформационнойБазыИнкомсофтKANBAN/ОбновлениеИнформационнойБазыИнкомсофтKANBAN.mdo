@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9152b56a-bdb3-4dc0-af81-8c22c7273586">
+  <name>ОбновлениеИнформационнойБазыИнкомсофтKANBAN</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление информационной базы инкомсофт KANBAN</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

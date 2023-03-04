@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6428097f-7a7a-4c3c-889a-e946a5dfde3b">
+  <name>инкДоскаЗадачПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доска задач</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Role.инкЗадачи</content>
+  <content>Role.инкЗадачиДобавлениеИзменение</content>
+  <content>Role.инкЗадачиЧтение</content>
+  <content>Task.инкЗадачаПользователя</content>
+  <content>Enum.инкСтатусыЗадач</content>
+  <content>Role.инкДоскаЗадачПользователей</content>
+  <content>Role.инкЗадачаПользователяЧтение</content>
+  <content>Role.инкЗадачаПользователяДобавлениеИзменение</content>
+  <content>Catalog.инкЗадачаПользователяПрисоединенныеФайлы</content>
+  <content>Role.инкЗадачаПользователяПрисоединенныеФайлыЧтение</content>
+  <content>Role.инкЗадачаПользователяПрисоединенныеФайлыДобавлениеИзменение</content>
+  <content>Catalog.инкПроектыКЗадачам</content>
+  <content>Role.инкПроектыКЗадачамЧтение</content>
+  <content>Role.инкПроектыКЗадачамДобавлениеИзменение</content>
+  <content>InformationRegister.инкПутиККаталогамЗадач</content>
+  <content>Constant.инкВключитьРассылкуОНовыхЗадачах</content>
+  <content>Constant.инкОтправкаСообщенийПриИзмененииЗадачи</content>
+  <content>Constant.инкПолучатьФайлыКЗадачеПриСозданииКаталога</content>
+  <content>CommonModule.инкОбщийКлиентСервер</content>
+  <content>CommonModule.инкОбщийСервер</content>
+  <content>Role.инкВключитьРассылкуОНовыхЗадачахИзменение</content>
+  <content>Role.инкВключитьРассылкуОНовыхЗадачахЧтение</content>
+  <content>Role.инкОтправкаСообщенийПриИзмененииЗадачи</content>
+  <content>Role.инкПолучатьФайлыКЗадачеПриСозданииКаталога</content>
+  <content>Role.инкПутиККаталогамЗадачДобавлениеИзменение</content>
+  <content>Role.инкПутиККаталогамЗадачЧтение</content>
+  <content>Enum.инкПриоритетЗадачи</content>
+</mdclass:Subsystem>

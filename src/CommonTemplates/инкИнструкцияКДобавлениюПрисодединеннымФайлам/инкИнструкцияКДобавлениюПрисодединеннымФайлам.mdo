@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33e558f3-287e-4ef1-a485-c678f071dd67">
+  <name>инкИнструкцияКДобавлениюПрисодединеннымФайлам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инструкция к добавлению присодединенным файлам</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

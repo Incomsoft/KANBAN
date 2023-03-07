@@ -35,7 +35,7 @@
   <splash/>
   <copyright>
     <key>ru</key>
-    <value>Copyright (С) ООО &quot;Инкомсофт&quot;, 2002 - 2023. Все права защищены. Руководитель/аналитик: Пивень Раиса Ивановна (incomsoft2000@yandex.ru). Разработчик: Чесноков Михаил Сереевич (mikas-2008@yandex.ru).</value>
+    <value>Copyright (С) ООО &quot;Инкомсофт&quot;, 2002 - 2023. Все права защищены. Разработчик: Чесноков Михаил Сереевич (mikas-2008@yandex.ru).</value>
   </copyright>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>

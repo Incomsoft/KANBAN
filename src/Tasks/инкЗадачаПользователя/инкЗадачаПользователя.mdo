@@ -30,7 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <defaultObjectForm>Task.инкЗадачаПользователя.Form.ФормаЗадачи</defaultObjectForm>
-  <defaultListForm>Task.инкЗадачаПользователя.Form.ФормаСписка16</defaultListForm>
+  <defaultListForm>Task.инкЗадачаПользователя.Form.ФормаСписка17</defaultListForm>
   <attributes uuid="37747a70-9272-4fb8-b340-cea983a25d67">
     <name>Автор</name>
     <synonym>
@@ -307,7 +307,7 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="b4f48507-3f5a-4179-a28d-df6bb2197269">
-    <name>ФормаСписка16</name>
+    <name>ФормаСписка17</name>
     <synonym>
       <key>ru</key>
       <value>Список задач</value>

@@ -33,4 +33,13 @@
   <content>Role.инкПутиККаталогамЗадачДобавлениеИзменение</content>
   <content>Role.инкПутиККаталогамЗадачЧтение</content>
   <content>Enum.инкПриоритетЗадачи</content>
+  <content>CommonModule.РаботаСФайламиВТомахСлужебный</content>
+  <content>EventSubscription.ПереопределитьПолучаемуюФормуПрисоединенногоФайла</content>
+  <content>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайлов</content>
+  <content>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайловДокументовВзаимодействия</content>
+  <content>DefinedType.ВладелецПрисоединенныхФайлов</content>
+  <content>DefinedType.ВладелецПрисоединенныхФайловОбъект</content>
+  <content>DefinedType.ПрисоединенныйФайл</content>
+  <content>DefinedType.ПрисоединенныйФайлОбъект</content>
+  <content>CommonTemplate.инкИнструкцияКДобавлениюПрисодединеннымФайлам</content>
 </mdclass:Subsystem>

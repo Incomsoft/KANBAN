@@ -30,7 +30,6 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <defaultObjectForm>Task.инкЗадачаПользователя.Form.ФормаЗадачи</defaultObjectForm>
-  <defaultListForm>Task.инкЗадачаПользователя.Form.ФормаСписка17</defaultListForm>
   <attributes uuid="37747a70-9272-4fb8-b340-cea983a25d67">
     <name>Автор</name>
     <synonym>

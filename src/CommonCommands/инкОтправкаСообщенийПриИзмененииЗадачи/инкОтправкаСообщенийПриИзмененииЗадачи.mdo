@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f90b9d0-287e-4712-8e43-4845257e4f00">
+  <name>инкОтправкаСообщенийПриИзмененииЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка сообщений при изменении задачи</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

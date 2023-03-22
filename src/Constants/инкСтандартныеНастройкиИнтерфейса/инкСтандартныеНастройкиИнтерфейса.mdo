@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ffa2d39-466d-4238-ac6f-044ba1cf3531">
+  <producedTypes>
+    <managerType typeId="dc08e0fe-91bc-46ae-8ea0-20416e1e57b1" valueTypeId="cc79b79b-7717-4f5f-9b8b-cd6c73c3a749"/>
+    <valueManagerType typeId="b2cfb8f6-58d5-4845-a8d4-92aa04a9b978" valueTypeId="8c733884-f912-4802-89fe-abe69468cc8b"/>
+    <valueKeyType typeId="ad5f2728-4dd4-4f20-99f3-717d83f4cea1" valueTypeId="2b32105d-0860-4221-b3e6-649734b68946"/>
+  </producedTypes>
+  <name>инкСтандартныеНастройкиИнтерфейса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартные настройки интерфейса</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.инкСтандартныеНастройкиИнтерфейса</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

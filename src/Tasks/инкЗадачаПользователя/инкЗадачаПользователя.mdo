@@ -215,6 +215,44 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="2845cc15-05e1-47a3-8193-ad2429f3ae10">
+    <name>ЧасыПлан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часы план</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a84c34c2-d98e-4186-9c2c-042b1eb3368c">
+    <name>ЧасыФакт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часы факт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="c39b66e3-60b2-47bb-ac22-d4bd76473bb7">
     <producedTypes>
       <objectType typeId="013370c4-b221-40b1-bdaf-3eb1a0d996bd" valueTypeId="aa50f98c-7aa9-4a08-a8d6-658b83b559e3"/>
@@ -279,6 +317,39 @@
       </synonym>
       <type>
         <types>ValueStorage</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="942168bc-1bee-4043-9f0b-89e5731f4cd8">
+    <producedTypes>
+      <objectType typeId="37ed0488-450e-4222-9035-f8eab7e21fc9" valueTypeId="cda2ed7d-51f9-4ce3-8980-5203c7ab5da6"/>
+      <rowType typeId="86a4e72a-bdde-499b-8e77-cad357bb6b4c" valueTypeId="8ae30ffc-0d6e-4082-909b-7bddbb006b2f"/>
+    </producedTypes>
+    <name>Наблюдатели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наблюдатели</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="f2ea74b2-4cf0-4dc0-9883-f5460e54537c">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

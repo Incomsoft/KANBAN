@@ -1211,6 +1211,7 @@
             </contextMenu>
             <type>InputField</type>
             <editMode>Enter</editMode>
+            <autoCellHeight>true</autoCellHeight>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:InputFieldExtInfo">
@@ -1269,6 +1270,10 @@
           </userVisible>
           <horizontalAlign>Left</horizontalAlign>
         </autoCommandBar>
+        <handlers>
+          <event>Selection</event>
+          <name>СписокТестированиеВыбор</name>
+        </handlers>
         <handlers>
           <event>Drag</event>
           <name>СписокТестированиеПеретаскивание</name>

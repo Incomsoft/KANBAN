@@ -42,4 +42,14 @@
   <content>DefinedType.ПрисоединенныйФайл</content>
   <content>DefinedType.ПрисоединенныйФайлОбъект</content>
   <content>CommonTemplate.инкИнструкцияКДобавлениюПрисодединеннымФайлам</content>
+  <content>Role.инкСтандартныеНастройкиИнтерфейса</content>
+  <content>CommonModule.инкОбновлениеИнформационнойБазыСервер</content>
+  <content>CommonModule.инкОбщийКлиент</content>
+  <content>CommonCommand.инкСтандартныеНастройкиИнтерфейса</content>
+  <content>CommonForm.инкСтандартныеНастройкиИнтерфейса</content>
+  <content>CommonTemplate.инкОписаниеИзмененийСистемы</content>
+  <content>Constant.инкСтандартныеНастройкиИнтерфейса</content>
+  <content>CommonCommand.инкВключитьРассылкуОНовыхЗадачах</content>
+  <content>CommonCommand.инкОтправкаСообщенийПриИзмененииЗадачи</content>
+  <content>CommonCommand.инкПолучатьФайлыКЗадачеПриСозданииКаталога</content>
 </mdclass:Subsystem>

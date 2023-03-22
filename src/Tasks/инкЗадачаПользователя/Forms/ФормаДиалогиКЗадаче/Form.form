@@ -1,5 +1,162 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:FormField">
+    <name>мПроцентОтображенияИзображения</name>
+    <id>4</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>мПроцентОтображенияИзображения</segments>
+    </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>мПроцентОтображенияИзображенияПриИзменении</name>
+    </handlers>
+    <extendedTooltip>
+      <name>мПроцентОтображенияИзображенияРасширеннаяПодсказка</name>
+      <id>6</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>мПроцентОтображенияИзображенияКонтекстноеМеню</name>
+      <id>5</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>RadioButtonField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+      <radioButtonsType>Tumbler</radioButtonsType>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>10%</value>
+        </presentation>
+        <value xsi:type="core:StringValue">
+          <value>10</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>20%</value>
+        </presentation>
+        <value xsi:type="core:StringValue">
+          <value>20</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>30%</value>
+        </presentation>
+        <value xsi:type="core:StringValue">
+          <value>30</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>40%</value>
+        </presentation>
+        <value xsi:type="core:StringValue">
+          <value>40</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>50%</value>
+        </presentation>
+        <value xsi:type="core:StringValue">
+          <value>50</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>60%</value>
+        </presentation>
+        <value xsi:type="core:StringValue">
+          <value>60</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>70%</value>
+        </presentation>
+        <value xsi:type="core:StringValue">
+          <value>70</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>80%</value>
+        </presentation>
+        <value xsi:type="core:StringValue">
+          <value>80</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>90%</value>
+        </presentation>
+        <value xsi:type="core:StringValue">
+          <value>90</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>100%</value>
+        </presentation>
+        <value xsi:type="core:StringValue">
+          <value>100</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>150%</value>
+        </presentation>
+        <value xsi:type="core:StringValue">
+          <value>150</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>200%</value>
+        </presentation>
+        <value xsi:type="core:StringValue">
+          <value>200</value>
+        </value>
+      </choiceList>
+    </extInfo>
+  </items>
   <items xsi:type="form:FormField">
     <name>мДиалогиКЗадаче</name>
     <id>1</id>
@@ -112,6 +269,42 @@
       <common>true</common>
     </edit>
     <main>true</main>
+  </attributes>
+  <attributes>
+    <name>мПроцентОтображенияИзображения</name>
+    <title>
+      <key>ru</key>
+      <value>% отображения изображения</value>
+    </title>
+    <id>3</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>мОригинальныйТестХТМЛ</name>
+    <title>
+      <key>ru</key>
+      <value>Оригинальный тест ХТМЛ</value>
+    </title>
+    <id>4</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <commandInterface>
     <navigationPanel/>

@@ -21,7 +21,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>ООО &quot;Инкомсофт&quot;</vendor>
-  <version>1.0.0.0</version>
+  <version>1.0.0.1</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -570,6 +570,7 @@
   <roles>Role.инкПроектыКЗадачамЧтение</roles>
   <roles>Role.инкПутиККаталогамЗадачДобавлениеИзменение</roles>
   <roles>Role.инкПутиККаталогамЗадачЧтение</roles>
+  <roles>Role.инкСтандартныеНастройкиИнтерфейса</roles>
   <roles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</roles>
   <roles>Role.ИспользованиеОбработкиТекущиеДела</roles>
   <roles>Role.ИспользованиеУниверсальногоОтчета</roles>
@@ -730,6 +731,7 @@
   <commonModules>CommonModule.ЗащитаПерсональныхДанныхПовтИсп</commonModules>
   <commonModules>CommonModule.ЗаявлениеНаСертификатПереопределяемый</commonModules>
   <commonModules>CommonModule.инкОбновлениеИнформационнойБазыСервер</commonModules>
+  <commonModules>CommonModule.инкОбщийКлиент</commonModules>
   <commonModules>CommonModule.инкОбщийКлиентСервер</commonModules>
   <commonModules>CommonModule.инкОбщийСервер</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСП</commonModules>
@@ -1369,31 +1371,35 @@
   <definedTypes>DefinedType.УточнениеКонтекстаПроверокВеденияУчета</definedTypes>
   <definedTypes>DefinedType.ФизическоеЛицо</definedTypes>
   <commonCommands>CommonCommand.АвтономнаяРабота</commonCommands>
-  <commonCommands>CommonCommand.НачатьИнтервью</commonCommands>
-  <commonCommands>CommonCommand.ЗадачиПоБизнесПроцессу</commonCommands>
-  <commonCommands>CommonCommand.ДобавитьПользователейСервиса</commonCommands>
-  <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
-  <commonCommands>CommonCommand.ЖурналУчетаОригиналовПервичныхДокументов</commonCommands>
-  <commonCommands>CommonCommand.ИсторияИзменений</commonCommands>
-  <commonCommands>CommonCommand.ЗагрузитьПравилаРегистрацииОбъектов</commonCommands>
   <commonCommands>CommonCommand.АвтономнаяРаботаВМоделиСервиса</commonCommands>
-  <commonCommands>CommonCommand.КартаМаршрутаБизнесПроцесса</commonCommands>
-  <commonCommands>CommonCommand.МоиЗаметкиПоПредмету</commonCommands>
-  <commonCommands>CommonCommand.НастройкаКолонтитулов</commonCommands>
-  <commonCommands>CommonCommand.ЗагрузитьКомплектПравил</commonCommands>
-  <commonCommands>CommonCommand.НастройкиСинхронизацииДанных</commonCommands>
-  <commonCommands>CommonCommand.НастроитьПрава</commonCommands>
-  <commonCommands>CommonCommand.ДополнительныеОтчетыАдминистрирование</commonCommands>
-  <commonCommands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commonCommands>
-  <commonCommands>CommonCommand.ЗадачиПоПредмету</commonCommands>
-  <commonCommands>CommonCommand.НастройкаОнлайнПоддержки</commonCommands>
-  <commonCommands>CommonCommand.НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</commonCommands>
-  <commonCommands>CommonCommand.ЗагрузитьПравилаКонвертацииОбъектов</commonCommands>
-  <commonCommands>CommonCommand.ЗагрузитьКурсыВалют</commonCommands>
-  <commonCommands>CommonCommand.НастройкиПодключения</commonCommands>
   <commonCommands>CommonCommand.ВремяТекущегоСеанса</commonCommands>
   <commonCommands>CommonCommand.ВсеФайлы</commonCommands>
+  <commonCommands>CommonCommand.ДобавитьПользователейСервиса</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеОтчетыАдминистрирование</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
+  <commonCommands>CommonCommand.ЖурналУчетаОригиналовПервичныхДокументов</commonCommands>
+  <commonCommands>CommonCommand.ЗагрузитьКомплектПравил</commonCommands>
+  <commonCommands>CommonCommand.ЗагрузитьКурсыВалют</commonCommands>
+  <commonCommands>CommonCommand.ЗагрузитьПравилаКонвертацииОбъектов</commonCommands>
+  <commonCommands>CommonCommand.ЗагрузитьПравилаРегистрацииОбъектов</commonCommands>
+  <commonCommands>CommonCommand.ЗадачиПоБизнесПроцессу</commonCommands>
+  <commonCommands>CommonCommand.ЗадачиПоПредмету</commonCommands>
+  <commonCommands>CommonCommand.инкВключитьРассылкуОНовыхЗадачах</commonCommands>
+  <commonCommands>CommonCommand.инкОтправкаСообщенийПриИзмененииЗадачи</commonCommands>
+  <commonCommands>CommonCommand.инкПолучатьФайлыКЗадачеПриСозданииКаталога</commonCommands>
+  <commonCommands>CommonCommand.инкСтандартныеНастройкиИнтерфейса</commonCommands>
+  <commonCommands>CommonCommand.ИсторияИзменений</commonCommands>
+  <commonCommands>CommonCommand.КартаМаршрутаБизнесПроцесса</commonCommands>
+  <commonCommands>CommonCommand.МоиЗаметкиПоПредмету</commonCommands>
   <commonCommands>CommonCommand.Напомнить</commonCommands>
+  <commonCommands>CommonCommand.НастроитьПрава</commonCommands>
+  <commonCommands>CommonCommand.НастройкаКолонтитулов</commonCommands>
+  <commonCommands>CommonCommand.НастройкаОнлайнПоддержки</commonCommands>
+  <commonCommands>CommonCommand.НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</commonCommands>
+  <commonCommands>CommonCommand.НастройкиПодключения</commonCommands>
+  <commonCommands>CommonCommand.НастройкиСинхронизацииДанных</commonCommands>
+  <commonCommands>CommonCommand.НачатьИнтервью</commonCommands>
   <commonCommands>CommonCommand.ОтправитьSMS</commonCommands>
   <commonCommands>CommonCommand.ОтправитьПисьмо</commonCommands>
   <commonCommands>CommonCommand.ПанельОтчетовАдминистрирование</commonCommands>
@@ -1422,9 +1428,9 @@
   <commonCommands>CommonCommand.СоздатьЗаметкуПоПредмету</commonCommands>
   <commonCommands>CommonCommand.СоставОтправляемыхДанных</commonCommands>
   <commonCommands>CommonCommand.СценарииСинхронизации</commonCommands>
+  <commonCommands>CommonCommand.УдалитьНастройкуСинхронизации</commonCommands>
   <commonCommands>CommonCommand.УстановитьРасширениеДляРаботыС1СПредприятием</commonCommands>
   <commonCommands>CommonCommand.ФайлыВТоме</commonCommands>
-  <commonCommands>CommonCommand.УдалитьНастройкуСинхронизации</commonCommands>
   <commandGroups>CommandGroup.Взаимодействия</commandGroups>
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
@@ -1456,6 +1462,7 @@
   <constants>Constant.ИдентификаторИнформационнойБазы</constants>
   <constants>Constant.ИзвлекатьТекстыФайловНаСервере</constants>
   <constants>Constant.ИзменятьЗаданияЗаднимЧислом</constants>
+  <constants>Constant.инкСтандартныеНастройкиИнтерфейса</constants>
   <constants>Constant.инкВключитьРассылкуОНовыхЗадачах</constants>
   <constants>Constant.инкОтправкаСообщенийПриИзмененииЗадачи</constants>
   <constants>Constant.инкПолучатьФайлыКЗадачеПриСозданииКаталога</constants>
@@ -1595,6 +1602,7 @@
   <commonForms>CommonForm.ДополнительноеОписание</commonForms>
   <commonForms>CommonForm.ДополнительныеОтчетыИОбработки</commonForms>
   <commonForms>CommonForm.ДополнительныеПараметрыПроксиСервера</commonForms>
+  <commonForms>CommonForm.инкСтандартныеНастройкиИнтерфейса</commonForms>
   <commonForms>CommonForm.ИнформацияНеразделенногоПользователя</commonForms>
   <commonForms>CommonForm.КонтрольДинамическогоОбновления</commonForms>
   <commonForms>CommonForm.МастерАнкетыПоРазделам</commonForms>

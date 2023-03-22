@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94a2d3a0-74e1-402f-a180-9b2160290daa">
+  <name>инкПолучатьФайлыКЗадачеПриСозданииКаталога</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получать файлы к задаче при создании каталога</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

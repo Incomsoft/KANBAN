@@ -52,4 +52,5 @@
   <content>CommonCommand.инкВключитьРассылкуОНовыхЗадачах</content>
   <content>CommonCommand.инкОтправкаСообщенийПриИзмененииЗадачи</content>
   <content>CommonCommand.инкПолучатьФайлыКЗадачеПриСозданииКаталога</content>
+  <content>Report.инкОплатаПоЗадачам</content>
 </mdclass:Subsystem>

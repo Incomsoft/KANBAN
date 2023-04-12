@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <defaultObjectForm>Task.инкЗадачаПользователя.Form.ФормаЗадачи</defaultObjectForm>
+  <defaultListForm>Task.инкЗадачаПользователя.Form.ФормаСпискаЗадач</defaultListForm>
   <attributes uuid="37747a70-9272-4fb8-b340-cea983a25d67">
     <name>Автор</name>
     <synonym>
@@ -77,6 +78,21 @@
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1c7bd59c-08bd-49a6-af60-e412a0f5d22f">
+    <name>Оплачена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -210,7 +226,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:ReferenceValue">
-      <value>Enum.инкСтатусыЗадач.EnumValue.КВыполнениюПауза</value>
+      <value>Enum.инкСтатусыЗадач.EnumValue.КВыполнению</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -377,10 +393,28 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="b4f48507-3f5a-4179-a28d-df6bb2197269">
-    <name>ФормаСписка17</name>
+    <name>ФормаСписка18</name>
     <synonym>
       <key>ru</key>
       <value>Список задач</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5b850a4e-fb38-41e2-bec5-4cee376823af">
+    <name>ФормаСпискаЗадач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка задач</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ffa48db7-dd9d-4d77-8120-16a32613ae80">
+    <name>ФормаУстановкиВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма установки времени</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

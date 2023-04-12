@@ -13,10 +13,17 @@
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="d510dcf8-a6b0-489c-80f8-56542ce118be">
-    <name>КВыполнениюПауза</name>
+    <name>КВыполнению</name>
     <synonym>
       <key>ru</key>
-      <value>К выполнению / Пауза</value>
+      <value>К выполнению</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bece2a50-8aa9-47a8-987f-2c4c78d4f783">
+    <name>Пауза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пауза</value>
     </synonym>
   </enumValues>
   <enumValues uuid="19a9958b-b486-4787-9575-3b5e58077718">

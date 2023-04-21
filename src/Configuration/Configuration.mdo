@@ -21,7 +21,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>ООО &quot;Инкомсофт&quot;</vendor>
-  <version>1.0.0.3</version>
+  <version>1.0.0.4</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -562,8 +562,6 @@
   <roles>Role.инкЗадачаПользователяПрисоединенныеФайлыЧтение</roles>
   <roles>Role.инкЗадачаПользователяЧтение</roles>
   <roles>Role.инкЗадачи</roles>
-  <roles>Role.инкЗадачиДобавлениеИзменение</roles>
-  <roles>Role.инкЗадачиЧтение</roles>
   <roles>Role.инкОплатаПоЗадачам</roles>
   <roles>Role.инкОтправкаСообщенийПриИзмененииЗадачи</roles>
   <roles>Role.инкПолучатьФайлыКЗадачеПриСозданииКаталога</roles>

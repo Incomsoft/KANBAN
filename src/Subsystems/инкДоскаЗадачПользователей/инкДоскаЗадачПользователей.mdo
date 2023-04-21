@@ -7,8 +7,6 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <content>Role.инкЗадачи</content>
-  <content>Role.инкЗадачиДобавлениеИзменение</content>
-  <content>Role.инкЗадачиЧтение</content>
   <content>Task.инкЗадачаПользователя</content>
   <content>Enum.инкСтатусыЗадач</content>
   <content>Role.инкДоскаЗадачПользователей</content>
@@ -53,4 +51,7 @@
   <content>CommonCommand.инкОтправкаСообщенийПриИзмененииЗадачи</content>
   <content>CommonCommand.инкПолучатьФайлыКЗадачеПриСозданииКаталога</content>
   <content>Report.инкОплатаПоЗадачам</content>
+  <content>CommonModule.УправлениеДоступомПереопределяемый</content>
+  <content>DefinedType.ЗначениеДоступа</content>
+  <content>DefinedType.ЗначениеДоступаОбъект</content>
 </mdclass:Subsystem>

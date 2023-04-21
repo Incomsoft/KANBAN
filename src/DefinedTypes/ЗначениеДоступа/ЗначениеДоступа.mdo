@@ -10,6 +10,7 @@
   </synonym>
   <comment>Типы значений и групп значений</comment>
   <type>
+    <types>CatalogRef.инкПроектыКЗадачам</types>
     <types>CatalogRef.ПапкиФайлов</types>
     <types>CatalogRef.ВнешниеПользователи</types>
     <types>CatalogRef.КлючиДоступа</types>

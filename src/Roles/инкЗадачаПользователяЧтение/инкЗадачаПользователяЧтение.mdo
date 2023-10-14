@@ -3,6 +3,6 @@
   <name>инкЗадачаПользователяЧтение</name>
   <synonym>
     <key>ru</key>
-    <value>Задача пользователя чтение</value>
+    <value>Задача пользователя (чтение)</value>
   </synonym>
 </mdclass:Role>

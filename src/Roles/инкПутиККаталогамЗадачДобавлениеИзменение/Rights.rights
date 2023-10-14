@@ -121,6 +121,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonCommand.инкПутиККаталогамЗадач</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.инкПутиККаталогамЗадач.Dimension.Каталог</name>
 		<right>
 			<name>Edit</name>

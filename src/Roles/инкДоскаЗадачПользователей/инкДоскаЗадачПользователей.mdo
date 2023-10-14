@@ -3,6 +3,6 @@
   <name>инкДоскаЗадачПользователей</name>
   <synonym>
     <key>ru</key>
-    <value>Доска задач пользователей</value>
+    <value>Доска задач пользователей (чтение)</value>
   </synonym>
 </mdclass:Role>

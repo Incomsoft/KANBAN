@@ -3,7 +3,7 @@
   <name>инкОбщийКлиентСервер</name>
   <synonym>
     <key>ru</key>
-    <value>Общий клиент сервер (Инкомсофт)</value>
+    <value>Общий клиент сервер</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>

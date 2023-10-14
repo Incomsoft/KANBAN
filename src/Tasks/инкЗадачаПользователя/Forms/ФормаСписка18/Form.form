@@ -2042,10 +2042,6 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>213d1900-dcad-4616-9f20-3f077156a40f</event>
-    <name>ПослеЗаписиНаСервере</name>
-  </handlers>
-  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
@@ -2325,4 +2321,14 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
+  <extInfo xsi:type="form:TaskFormExtInfo">
+    <handlers>
+      <event>AfterWriteAtServer</event>
+      <name>ПослеЗаписиНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>ActivationProcessing</event>
+      <name>ОбработкаАктивизации</name>
+    </handlers>
+  </extInfo>
 </form:Form>

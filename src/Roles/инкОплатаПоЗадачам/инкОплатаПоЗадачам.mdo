@@ -3,6 +3,6 @@
   <name>инкОплатаПоЗадачам</name>
   <synonym>
     <key>ru</key>
-    <value>Оплата по задачам (Отчет)</value>
+    <value>Оплата по задачам (Отчет) (чтение)</value>
   </synonym>
 </mdclass:Role>

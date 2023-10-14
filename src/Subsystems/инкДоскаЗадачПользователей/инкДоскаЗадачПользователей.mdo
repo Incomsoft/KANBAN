@@ -41,11 +41,9 @@
   <content>DefinedType.ПрисоединенныйФайлОбъект</content>
   <content>CommonTemplate.инкИнструкцияКДобавлениюПрисодединеннымФайлам</content>
   <content>Role.инкСтандартныеНастройкиИнтерфейса</content>
-  <content>CommonModule.инкОбновлениеИнформационнойБазыСервер</content>
   <content>CommonModule.инкОбщийКлиент</content>
   <content>CommonCommand.инкСтандартныеНастройкиИнтерфейса</content>
   <content>CommonForm.инкСтандартныеНастройкиИнтерфейса</content>
-  <content>CommonTemplate.инкОписаниеИзмененийСистемы</content>
   <content>Constant.инкСтандартныеНастройкиИнтерфейса</content>
   <content>CommonCommand.инкВключитьРассылкуОНовыхЗадачах</content>
   <content>CommonCommand.инкОтправкаСообщенийПриИзмененииЗадачи</content>
@@ -54,4 +52,12 @@
   <content>CommonModule.УправлениеДоступомПереопределяемый</content>
   <content>DefinedType.ЗначениеДоступа</content>
   <content>DefinedType.ЗначениеДоступаОбъект</content>
+  <content>InformationRegister.инкНаблюдателиПоПроектам</content>
+  <content>Role.инкНаблюдателиПоПроектамДобавлениеИзменение</content>
+  <content>Role.инкНаблюдателиПоПроектамЧтение</content>
+  <content>Role.инкОплатаПоЗадачам</content>
+  <content>ScheduledJob.инкОтправкаСообщений</content>
+  <content>Catalog.Пользователи</content>
+  <content>CommonCommand.инкНаблюдателиПоПроектам</content>
+  <content>CommonCommand.инкПутиККаталогамЗадач</content>
 </mdclass:Subsystem>

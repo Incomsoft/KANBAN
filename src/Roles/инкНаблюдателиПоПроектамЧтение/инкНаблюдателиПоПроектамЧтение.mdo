@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c339c67d-c8dd-4142-a098-93521ddc2575">
+  <name>инкНаблюдателиПоПроектамЧтение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наблюдатели по проектам (чтение)</value>
+  </synonym>
+</mdclass:Role>

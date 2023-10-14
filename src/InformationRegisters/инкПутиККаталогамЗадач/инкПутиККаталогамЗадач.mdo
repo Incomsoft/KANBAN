@@ -12,7 +12,7 @@
   <name>инкПутиККаталогамЗадач</name>
   <synonym>
     <key>ru</key>
-    <value>Пути к каталогам задач (Инкомсофт)</value>
+    <value>Пути к каталогам задач</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>

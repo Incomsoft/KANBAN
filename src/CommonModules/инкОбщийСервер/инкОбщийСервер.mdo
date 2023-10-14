@@ -3,7 +3,7 @@
   <name>инкОбщийСервер</name>
   <synonym>
     <key>ru</key>
-    <value>Инк общий сервер</value>
+    <value>Общий сервер</value>
   </synonym>
   <server>true</server>
   <serverCall>true</serverCall>

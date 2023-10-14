@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="296d71b9-d028-4ef4-b11b-330868053f54">
+  <name>инкОтправкаСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка сообщений</value>
+  </synonym>
+  <methodName>CommonModule.инкОбщийСервер.ОтправкаСообщений</methodName>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

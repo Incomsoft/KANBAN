@@ -121,31 +121,10 @@
 		</right>
 	</object>
 	<object>
-		<name>Task.инкЗадачаПользователя.Attribute.Исполнитель</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Task.инкЗадачаПользователя.Attribute.СрокВыполнения</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Task.инкЗадачаПользователя.Command.КомандаДоскаЗадачПользователей</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Task.инкЗадачаПользователя.Attribute.Статус</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<restrictionTemplate>

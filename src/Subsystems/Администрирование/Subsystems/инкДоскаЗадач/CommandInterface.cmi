@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>CommonCommand.инкВключитьРассылкуОНовыхЗадачах</commands>
+      <commands>CommonCommand.инкОтправкаСообщенийПриИзмененииЗадачи</commands>
+      <commands>CommonCommand.инкПолучатьФайлыКЗадачеПриСозданииКаталога</commands>
+      <commands>CommonCommand.инкСтандартныеНастройкиИнтерфейса</commands>
+      <commands>CommonCommand.инкПутиККаталогамЗадач</commands>
+      <commands>CommonCommand.инкНаблюдателиПоПроектам</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

@@ -111,5 +111,5 @@
   <content>Constant.инкВключитьРассылкуОНовыхЗадачах</content>
   <content>Constant.инкОтправкаСообщенийПриИзмененииЗадачи</content>
   <content>Constant.инкПолучатьФайлыКЗадачеПриСозданииКаталога</content>
-  <subsystems>инкАдминистрирование</subsystems>
+  <subsystems>инкДоскаЗадач</subsystems>
 </mdclass:Subsystem>

@@ -21,7 +21,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>ООО &quot;Инкомсофт&quot;</vendor>
-  <version>1.0.0.4</version>
+  <version>1.0.0.5</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -562,6 +562,8 @@
   <roles>Role.инкЗадачаПользователяПрисоединенныеФайлыЧтение</roles>
   <roles>Role.инкЗадачаПользователяЧтение</roles>
   <roles>Role.инкЗадачи</roles>
+  <roles>Role.инкНаблюдателиПоПроектамДобавлениеИзменение</roles>
+  <roles>Role.инкНаблюдателиПоПроектамЧтение</roles>
   <roles>Role.инкОплатаПоЗадачам</roles>
   <roles>Role.инкОтправкаСообщенийПриИзмененииЗадачи</roles>
   <roles>Role.инкПолучатьФайлыКЗадачеПриСозданииКаталога</roles>
@@ -1209,6 +1211,7 @@
   <scheduledJobs>ScheduledJob.ЗаполнениеДанныхДляОграниченияДоступа</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗапускДополнительныхОбработок</scheduledJobs>
   <scheduledJobs>ScheduledJob.ИзвлечениеТекста</scheduledJobs>
+  <scheduledJobs>ScheduledJob.инкОтправкаСообщений</scheduledJobs>
   <scheduledJobs>ScheduledJob.ИсправлениеУстаревшихАдресов</scheduledJobs>
   <scheduledJobs>ScheduledJob.КонтрольАктивностиПользователей</scheduledJobs>
   <scheduledJobs>ScheduledJob.МониторингЗадач</scheduledJobs>
@@ -1385,8 +1388,10 @@
   <commonCommands>CommonCommand.ЗадачиПоБизнесПроцессу</commonCommands>
   <commonCommands>CommonCommand.ЗадачиПоПредмету</commonCommands>
   <commonCommands>CommonCommand.инкВключитьРассылкуОНовыхЗадачах</commonCommands>
+  <commonCommands>CommonCommand.инкНаблюдателиПоПроектам</commonCommands>
   <commonCommands>CommonCommand.инкОтправкаСообщенийПриИзмененииЗадачи</commonCommands>
   <commonCommands>CommonCommand.инкПолучатьФайлыКЗадачеПриСозданииКаталога</commonCommands>
+  <commonCommands>CommonCommand.инкПутиККаталогамЗадач</commonCommands>
   <commonCommands>CommonCommand.инкСтандартныеНастройкиИнтерфейса</commonCommands>
   <commonCommands>CommonCommand.ИсторияИзменений</commonCommands>
   <commonCommands>CommonCommand.КартаМаршрутаБизнесПроцесса</commonCommands>
@@ -1943,6 +1948,7 @@
   <informationRegisters>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</informationRegisters>
   <informationRegisters>InformationRegister.ИдентификаторыПолученныхЭлектронныхПисем</informationRegisters>
   <informationRegisters>InformationRegister.ИзмененияОбщихДанныхУзлов</informationRegisters>
+  <informationRegisters>InformationRegister.инкНаблюдателиПоПроектам</informationRegisters>
   <informationRegisters>InformationRegister.инкПутиККаталогамЗадач</informationRegisters>
   <informationRegisters>InformationRegister.ИсполнителиЗадач</informationRegisters>
   <informationRegisters>InformationRegister.ИспользованиеДополнительныхОтчетовИОбработокСервисаВАвтономномРабочемМесте</informationRegisters>

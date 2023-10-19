@@ -434,24 +434,73 @@
 	<rowsItem>
 		<index>27</index>
 		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>28</index>
+		<row>
+			<formatIndex>6</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Новое в версии 1.0.0.6</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>29</index>
+		<row>
 			<formatIndex>17</formatIndex>
 			<c>
+				<i>1</i>
 				<c>
-					<f>18</f>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>* Исправление ошибок при отражении комментария;
+* Исправление работы регламентрого задания;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>30</index>
+		<row>
+			<formatIndex>18</formatIndex>
+			<c>
+				<c>
+					<f>19</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>19</f>
+					<f>20</f>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>3</defaultFormatIndex>
-	<height>28</height>
+	<height>31</height>
 	<vgLevels>1</vgLevels>
-	<vgRows>28</vgRows>
+	<vgRows>31</vgRows>
 	<vg>
 		<b>2</b>
 		<e>5</e>
@@ -512,6 +561,16 @@
 			<type>Rows</type>
 			<beginRow>26</beginRow>
 			<endRow>26</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Версия1_0_0_6</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>29</beginRow>
+			<endRow>29</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -596,6 +655,16 @@
 			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Шапка1_0_0_6</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>28</beginRow>
+			<endRow>28</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
 	<font faceName="Arial" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
@@ -666,6 +735,10 @@
 	</format>
 	<format>
 		<height>283</height>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<height>86</height>
 		<textPlacement>Wrap</textPlacement>
 	</format>
 	<format>

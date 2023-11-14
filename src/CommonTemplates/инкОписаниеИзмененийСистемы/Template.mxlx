@@ -483,24 +483,58 @@
 	<rowsItem>
 		<index>30</index>
 		<row>
-			<formatIndex>18</formatIndex>
+			<formatIndex>4</formatIndex>
 			<c>
+				<i>1</i>
 				<c>
-					<f>19</f>
+					<f>5</f>
 				</c>
 			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>31</index>
+		<row>
+			<formatIndex>6</formatIndex>
 			<c>
+				<i>1</i>
 				<c>
-					<f>20</f>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Новое в версии 1.0.0.7</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>32</index>
+		<row>
+			<formatIndex>18</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>* При записи то что находится в поле комментарий переносить в диалоги.
+* При комменрировании в табличный документ "Комментарий к задаче" попадал только один комментарий.
+* Добавлено комментирование с картинкой. </v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>3</defaultFormatIndex>
-	<height>31</height>
+	<height>33</height>
 	<vgLevels>1</vgLevels>
-	<vgRows>31</vgRows>
+	<vgRows>33</vgRows>
 	<vg>
 		<b>2</b>
 		<e>5</e>
@@ -571,6 +605,16 @@
 			<type>Rows</type>
 			<beginRow>29</beginRow>
 			<endRow>29</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Версия1_0_0_7</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>32</beginRow>
+			<endRow>32</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -665,6 +709,16 @@
 			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Шапка1_0_0_7</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>31</beginRow>
+			<endRow>31</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
 	<font faceName="Arial" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
@@ -742,17 +796,7 @@
 		<textPlacement>Wrap</textPlacement>
 	</format>
 	<format>
-		<height>39</height>
-	</format>
-	<format>
-		<height>39</height>
-		<width>8</width>
+		<height>127</height>
 		<textPlacement>Wrap</textPlacement>
-	</format>
-	<format>
-		<height>39</height>
-		<width>679</width>
-		<textPlacement>Wrap</textPlacement>
-		<hyperLink>false</hyperLink>
 	</format>
 </document>

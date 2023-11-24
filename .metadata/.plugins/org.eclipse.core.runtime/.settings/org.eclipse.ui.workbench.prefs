@@ -1,0 +1,12 @@
+//org.eclipse.ui.commands/state/com._1c.g5.v8.dt.profiling.ui.showOutdatedResults/org.eclipse.ui.commands.toggleState=true
+//org.eclipse.ui.commands/state/com._1c.g5.v8.dt.profiling.ui.showRuler/org.eclipse.ui.commands.toggleState=true
+//org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
+ENABLED_DECORATORS=org.eclipse.wst.server.ui.decorator\:false,org.eclipse.ui.LinkedResourceDecorator\:true,org.eclipse.ui.SymlinkDecorator\:true,org.eclipse.ui.VirtualResourceDecorator\:true,org.eclipse.ui.ContentTypeDecorator\:true,org.eclipse.ui.ResourceFilterDecorator\:false,com._1c.g5.v8.dt.md.distribution.support.ui.decorator\:true,org.eclipse.debug.ui.prototype.decorator\:true,com._1c.g5.v8.dt.ide.ui.v8ConfigurationProject.nature.overlay\:true,com._1c.g5.v8.dt.ide.ui.v8ExtensionProject.nature.overlay\:true,com._1c.g5.v8.dt.ide.ui.extension.object.overlay\:true,com._1c.g5.v8.dt.navigator.ui.navigatorProblemsLabelDecorator\:true,com._1c.g5.v8.dt.platform.services.ui.infobaseViewDecorator\:true,com._1c.g5.v8.dt.platform.services.ui.projectDecorator\:true,com._1c.g5.v8.dt.platform.services.ui.publicationDecorator\:true,org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator\:true,org.eclipse.egit.ui.internal.repository.RepositoryTreeNodeDecorator\:true,com._1c.g5.v8.dt.team.ui.view.decorator\:true,com._1c.g5.v8.dt.team.ui.view.decorator.ref\:true,com._1c.g5.v8.dt.xdto.ui.xdtoProblemsLabelDecorator\:true,com.e1c.g5.dt.applications.ui.decorator\:true,com.e1c.g5.dt.applications.ui.urlAccess.decorator\:true,org.eclipse.wst.server.ui.navigatorDecorator\:true,
+UIActivities.com._1c.g5.v8.dt.ui.standardMode=true
+eclipse.preferences.version=1
+org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_END=255,255,255
+org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_START=255,255,255
+org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_TEXT_COLOR=16,16,16
+org.eclipse.ui.workbench.ACTIVE_TAB_BG_END=255,255,255
+org.eclipse.ui.workbench.ACTIVE_TAB_BG_START=255,255,255
+org.eclipse.ui.workbench.INACTIVE_TAB_BG_START=242,242,242

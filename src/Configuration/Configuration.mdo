@@ -3,9 +3,9 @@
   <name>ИнкомсофтKANBAN</name>
   <synonym>
     <key>ru</key>
-    <value>Инкомсофт: KANBAN (Доска задач) 1.0</value>
+    <value>Инкомсофт: KANBAN, редакция 1.0</value>
   </synonym>
-  <comment>Программа для работы с клиентами</comment>
+  <comment>Программа для управления внутренними задачами</comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="f6753c2e-5a8b-4c6c-8081-d81b42de2232"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="82c1e366-19e8-4e36-bd22-a054e573822a"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="5d715ad7-d0f4-46af-9ed6-4418c00b51a5"/>
@@ -21,7 +21,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>ООО &quot;Инкомсофт&quot;</vendor>
-  <version>1.0.0.7</version>
+  <version>1.0.0.10</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -32,10 +32,14 @@
     </functionality>
   </usedMobileApplicationFunctionalities>
   <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Инкомсофт: KANBAN, редакция 1.0</value>
+  </briefInformation>
   <splash/>
   <copyright>
     <key>ru</key>
-    <value>Copyright (С) ООО &quot;Инкомсофт&quot;, 2002 - 2023. Все права защищены. Разработчик: Чесноков Михаил Сереевич (mikas-2008@yandex.ru).</value>
+    <value>Copyright (С) ООО &quot;Инкомсофт&quot;, 2002 - 2024. Все права защищены. Разработчик: Чесноков Михаил Сереевич (mikas-2008@yandex.ru).</value>
   </copyright>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
@@ -51,7 +55,6 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Администрирование</subsystems>
-  <subsystems>Subsystem.инкДоскаЗадачПользователей</subsystems>
   <subsystems>Subsystem.инкДоскаЗадачПользователейОтображение</subsystems>
   <subsystems>Subsystem.инкСлужебные</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
@@ -121,160 +124,160 @@
   <styleItems>StyleItem.ЦветТекстаНевыбраннойКартинки</styleItems>
   <styleItems>StyleItem.ЦветФонаПредупреждения</styleItems>
   <commonPictures>CommonPicture.GoogleMaps</commonPictures>
-  <commonPictures>CommonPicture.КоннекторВерхПраво</commonPictures>
-  <commonPictures>CommonPicture.ВводимыеСимволыВидны</commonPictures>
-  <commonPictures>CommonPicture.КоннекторЛевоНизПраво</commonPictures>
-  <commonPictures>CommonPicture.ДобавитьКомплексныйВопрос</commonPictures>
-  <commonPictures>CommonPicture.КоннекторПравоНиз</commonPictures>
-  <commonPictures>CommonPicture.ДобавитьПростойВопрос</commonPictures>
-  <commonPictures>CommonPicture.КонтактнаяИнформацияНеактуально</commonPictures>
-  <commonPictures>CommonPicture.ДобавитьРазделАнкеты</commonPictures>
-  <commonPictures>CommonPicture.КурсивноеНачертание</commonPictures>
-  <commonPictures>CommonPicture.ВидыНавигацииПоВзаимодействиямОтДопРеквизитовСведений</commonPictures>
-  <commonPictures>CommonPicture.МенюДополнительныеФункции</commonPictures>
-  <commonPictures>CommonPicture.ДобавитьТабличныйВопрос</commonPictures>
-  <commonPictures>CommonPicture.НаписатьSMS</commonPictures>
-  <commonPictures>CommonPicture.ДобавитьУсловныйВопрос</commonPictures>
-  <commonPictures>CommonPicture.НастроитьСостоянияОригиналаПервичногоДокумента</commonPictures>
-  <commonPictures>CommonPicture.ДокументЗаписанКоннекторВерх</commonPictures>
-  <commonPictures>CommonPicture.НетГраницы</commonPictures>
-  <commonPictures>CommonPicture.ВидыНавигацииПоВзаимодействиямОтКатегорий</commonPictures>
-  <commonPictures>CommonPicture.ОбновлениеВнешнихКомпонентССайта</commonPictures>
-  <commonPictures>CommonPicture.ДокументЗаписанКоннекторЛево</commonPictures>
-  <commonPictures>CommonPicture.ОбычныйДоступСФлажком</commonPictures>
-  <commonPictures>CommonPicture.ДокументЗаписанКоннекторЛевоВерх</commonPictures>
-  <commonPictures>CommonPicture.ОжидаемаяДлительнаяОперация48</commonPictures>
-  <commonPictures>CommonPicture.ДокументЗаписанКоннекторЛевоНиз</commonPictures>
-  <commonPictures>CommonPicture.Органайзер</commonPictures>
-  <commonPictures>CommonPicture.ВидыНавигацииПоВзаимодействиямОтКонтактов</commonPictures>
-  <commonPictures>CommonPicture.Отборы</commonPictures>
-  <commonPictures>CommonPicture.ДокументПомеченНаУдалениеКоннекторВерх</commonPictures>
-  <commonPictures>CommonPicture.ОтветитьНаЭлектронноеПисьмоВсем</commonPictures>
-  <commonPictures>CommonPicture.ДокументПомеченНаУдалениеКоннекторВерхНиз</commonPictures>
-  <commonPictures>CommonPicture.ОткрытьМакет</commonPictures>
-  <commonPictures>CommonPicture.ДокументПомеченНаУдалениеКоннекторЛево</commonPictures>
-  <commonPictures>CommonPicture.ОтменитьРедактированиеМакета</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияВариантыВажности</commonPictures>
-  <commonPictures>CommonPicture.Вопрос32</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияДляПомеченныхНаУдалениеОбъектов</commonPictures>
-  <commonPictures>CommonPicture.ЗаставкаВнешнейОперации</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияКартинокСопоставлениеОбъектов</commonPictures>
-  <commonPictures>CommonPicture.Зашифрован</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияОтсутствуетСогласие</commonPictures>
-  <commonPictures>CommonPicture.ВосклицательныйЗнакКрасный</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияПиктограммФайлов</commonPictures>
-  <commonPictures>CommonPicture.ЗнакСтоп</commonPictures>
-  <commonPictures>CommonPicture.КомпьютерКлиент</commonPictures>
-  <commonPictures>CommonPicture.ЗнакСтопЧБ</commonPictures>
-  <commonPictures>CommonPicture.КоннекторВерхПравоНиз</commonPictures>
-  <commonPictures>CommonPicture.ВосклицательныйЗнакСерый</commonPictures>
-  <commonPictures>CommonPicture.КонтактнаяИнформация</commonPictures>
-  <commonPictures>CommonPicture.ЗначокЩита</commonPictures>
-  <commonPictures>CommonPicture.Максимум</commonPictures>
-  <commonPictures>CommonPicture.ИерархическийСписок</commonPictures>
-  <commonPictures>CommonPicture.Напоминание</commonPictures>
-  <commonPictures>CommonPicture.ВидыНавигацииПоВзаимодействиямОтПредметовВзаимодействий</commonPictures>
-  <commonPictures>CommonPicture.ОбновитьФайлИзФайлаНаДиске</commonPictures>
-  <commonPictures>CommonPicture.ОжидаемаяДлительнаяОперация16</commonPictures>
-  <commonPictures>CommonPicture.Информация32</commonPictures>
-  <commonPictures>CommonPicture.ОсвободитьФайл</commonPictures>
-  <commonPictures>CommonPicture.Встреча</commonPictures>
-  <commonPictures>CommonPicture.ОткрытьВыбранныйФайл</commonPictures>
-  <commonPictures>CommonPicture.ИспользованиеМакета</commonPictures>
-  <commonPictures>CommonPicture.ОтправитьSMS</commonPictures>
-  <commonPictures>CommonPicture.ИспользоватьПользовательскийМакет</commonPictures>
-  <commonPictures>CommonPicture.ВертикальноеПоложениеНиз</commonPictures>
-  <commonPictures>CommonPicture.ВыбратьВариантОтчета</commonPictures>
-  <commonPictures>CommonPicture.АрхивАнкета</commonPictures>
-  <commonPictures>CommonPicture.ИсторияВерсий</commonPictures>
-  <commonPictures>CommonPicture.ВнешняяСсылкаНаОбъектИнформационнойБазы</commonPictures>
-  <commonPictures>CommonPicture.ИсторияИзменений</commonPictures>
-  <commonPictures>CommonPicture.ГраницаСлева</commonPictures>
-  <commonPictures>CommonPicture.ВыполнитьРегламентноеЗаданиеВручную</commonPictures>
-  <commonPictures>CommonPicture.ДокументЗаписанКоннекторНиз</commonPictures>
-  <commonPictures>CommonPicture.КоличествоРассмотрено</commonPictures>
-  <commonPictures>CommonPicture.ЗавершитьРаботу</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияВажностьПроблемВеденияУчета</commonPictures>
-  <commonPictures>CommonPicture.ЗначокЗаставкиВнешнейОперации</commonPictures>
-  <commonPictures>CommonPicture.ВертикальноеПоложениеЦентр</commonPictures>
-  <commonPictures>CommonPicture.Количество</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияВидыАктивныхПользователей</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияЗадачиИБизнесПроцессы</commonPictures>
-  <commonPictures>CommonPicture.ВыравниваниеПоПравомуКраю</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияПиктограммПараметрыШаблонаСообщения</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияДеревоАнкеты</commonPictures>
-  <commonPictures>CommonPicture.КоннекторВерхНиз</commonPictures>
-  <commonPictures>CommonPicture.ВыравниваниеПоЦентру</commonPictures>
-  <commonPictures>CommonPicture.КонтактнаяИнформацияПерейтиПоСсылке</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияДоступныеАнкеты</commonPictures>
-  <commonPictures>CommonPicture.НезавершившаясяПроверка</commonPictures>
-  <commonPictures>CommonPicture.ВыравниваниеПоШирине</commonPictures>
-  <commonPictures>CommonPicture.ОпубликоватьФайл</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияЗаметки</commonPictures>
-  <commonPictures>CommonPicture.ОтложитьРассмотрениеВзаимодействия</commonPictures>
-  <commonPictures>CommonPicture.Взаимодействия</commonPictures>
-  <commonPictures>CommonPicture.БыстрыйДоступУдалить</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияКонтролируемыеСобытия152ФЗ</commonPictures>
-  <commonPictures>CommonPicture.ВыравниваниеПоЛевомуКраю</commonPictures>
-  <commonPictures>CommonPicture.ГраницаВнутри</commonPictures>
-  <commonPictures>CommonPicture.ДокументПроведенКоннекторВерхНиз</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияОбъектыМетаданных</commonPictures>
-  <commonPictures>CommonPicture.ИнформацияПоНедоступнымПолям</commonPictures>
-  <commonPictures>CommonPicture.ГраницаВокруг</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияНапоминания</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияПиктограммНаличиеОригиналаПервичногоДокумента</commonPictures>
-  <commonPictures>CommonPicture.КоннекторЛевоПраво</commonPictures>
-  <commonPictures>CommonPicture.ГраницаСверху</commonPictures>
-  <commonPictures>CommonPicture.ОбъединитьЯчейки</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияПиктограммПечатныеФормыОригиналаПервичногоДокумента</commonPictures>
-  <commonPictures>CommonPicture.БыстрыйДоступСФлажком</commonPictures>
-  <commonPictures>CommonPicture.ВидСравнения</commonPictures>
-  <commonPictures>CommonPicture.ДобавитьРодительский</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияПиктограммЭлементов</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияВидыСобытийЖурналаРегистрации</commonPictures>
-  <commonPictures>CommonPicture.ГраницаСнизу</commonPictures>
-  <commonPictures>CommonPicture.Минимум</commonPictures>
-  <commonPictures>CommonPicture.Комментарий</commonPictures>
   <commonPictures>CommonPicture.Skype</commonPictures>
-  <commonPictures>CommonPicture.ГраницаСправа</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияСкрепка</commonPictures>
-  <commonPictures>CommonPicture.КомпьютерСервер</commonPictures>
-  <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
-  <commonPictures>CommonPicture.ДлительнаяОперация16</commonPictures>
-  <commonPictures>CommonPicture.ОтветитьНаЭлектронноеПисьмо</commonPictures>
-  <commonPictures>CommonPicture.ВводимыеСимволыСкрыты</commonPictures>
-  <commonPictures>CommonPicture.ВнешняяКомпонентаДоступна</commonPictures>
-  <commonPictures>CommonPicture.ДокументПомеченНаУдалениеКоннекторЛевоНиз</commonPictures>
-  <commonPictures>CommonPicture.ВариантыОтчетовДоступныеВсемПользователям</commonPictures>
-  <commonPictures>CommonPicture.ДокументПомеченНаУдалениеКоннекторНиз</commonPictures>
-  <commonPictures>CommonPicture.ВидыКонтактнойИнформации</commonPictures>
-  <commonPictures>CommonPicture.ДокументПроведенКоннекторВерх</commonPictures>
-  <commonPictures>CommonPicture.БыстрыйДоступ</commonPictures>
-  <commonPictures>CommonPicture.ВидыНавигацииПоВзаимодействиямОтРеквизитаПредмета</commonPictures>
+  <commonPictures>CommonPicture.АрхивАнкета</commonPictures>
   <commonPictures>CommonPicture.БыстрыеНастройкиОтчета</commonPictures>
-  <commonPictures>CommonPicture.ДокументПроведенКоннекторЛево</commonPictures>
+  <commonPictures>CommonPicture.БыстрыйДоступ</commonPictures>
   <commonPictures>CommonPicture.БыстрыйДоступДобавить</commonPictures>
-  <commonPictures>CommonPicture.ДокументПроведенКоннекторЛевоВерх</commonPictures>
-  <commonPictures>CommonPicture.ВставитьИзБуфераОбмена</commonPictures>
-  <commonPictures>CommonPicture.ДокументПроведенКоннекторЛевоНиз</commonPictures>
-  <commonPictures>CommonPicture.ГраницаВезде</commonPictures>
-  <commonPictures>CommonPicture.ВидыОпераций</commonPictures>
-  <commonPictures>CommonPicture.ДлительнаяОперация48</commonPictures>
-  <commonPictures>CommonPicture.ДополнительныеРеквизитыСведения</commonPictures>
-  <commonPictures>CommonPicture.ДокументЗаписанКоннекторВерхНиз</commonPictures>
-  <commonPictures>CommonPicture.ДополнительныеСведения</commonPictures>
-  <commonPictures>CommonPicture.ДокументПомеченНаУдалениеКоннекторЛевоВерх</commonPictures>
-  <commonPictures>CommonPicture.ВнешняяКомпонентаНеДоступна</commonPictures>
-  <commonPictures>CommonPicture.ДокументПроведенКоннекторНиз</commonPictures>
-  <commonPictures>CommonPicture.ЗавершитьРедактированиеМакета</commonPictures>
-  <commonPictures>CommonPicture.Заметка</commonPictures>
-  <commonPictures>CommonPicture.ЗакончитьРедактированиеФайла</commonPictures>
-  <commonPictures>CommonPicture.ЗаявлениеНаВыпускСертификатаКлюча</commonPictures>
+  <commonPictures>CommonPicture.БыстрыйДоступСФлажком</commonPictures>
+  <commonPictures>CommonPicture.БыстрыйДоступУдалить</commonPictures>
+  <commonPictures>CommonPicture.ВариантыОтчетовДоступныеВсемПользователям</commonPictures>
+  <commonPictures>CommonPicture.ВводимыеСимволыВидны</commonPictures>
+  <commonPictures>CommonPicture.ВводимыеСимволыСкрыты</commonPictures>
   <commonPictures>CommonPicture.ВертикальноеПоложениеВерх</commonPictures>
-  <commonPictures>CommonPicture.ИзменитьШрифт</commonPictures>
+  <commonPictures>CommonPicture.ВертикальноеПоложениеНиз</commonPictures>
+  <commonPictures>CommonPicture.ВертикальноеПоложениеЦентр</commonPictures>
+  <commonPictures>CommonPicture.Взаимодействия</commonPictures>
+  <commonPictures>CommonPicture.ВидСравнения</commonPictures>
+  <commonPictures>CommonPicture.ВидыКонтактнойИнформации</commonPictures>
+  <commonPictures>CommonPicture.ВидыНавигацииПоВзаимодействиямОтДопРеквизитовСведений</commonPictures>
+  <commonPictures>CommonPicture.ВидыНавигацииПоВзаимодействиямОтКатегорий</commonPictures>
+  <commonPictures>CommonPicture.ВидыНавигацииПоВзаимодействиямОтКонтактов</commonPictures>
+  <commonPictures>CommonPicture.ВидыНавигацииПоВзаимодействиямОтПредметовВзаимодействий</commonPictures>
+  <commonPictures>CommonPicture.ВидыНавигацииПоВзаимодействиямОтРеквизитаПредмета</commonPictures>
+  <commonPictures>CommonPicture.ВидыОпераций</commonPictures>
+  <commonPictures>CommonPicture.ВнешняяКомпонентаДоступна</commonPictures>
+  <commonPictures>CommonPicture.ВнешняяКомпонентаНеДоступна</commonPictures>
+  <commonPictures>CommonPicture.ВнешняяСсылкаНаОбъектИнформационнойБазы</commonPictures>
+  <commonPictures>CommonPicture.Вопрос32</commonPictures>
+  <commonPictures>CommonPicture.ВосклицательныйЗнакКрасный</commonPictures>
+  <commonPictures>CommonPicture.ВосклицательныйЗнакСерый</commonPictures>
+  <commonPictures>CommonPicture.ВставитьИзБуфераОбмена</commonPictures>
+  <commonPictures>CommonPicture.Встреча</commonPictures>
+  <commonPictures>CommonPicture.ВыбратьВариантОтчета</commonPictures>
+  <commonPictures>CommonPicture.ВыполнитьРегламентноеЗаданиеВручную</commonPictures>
+  <commonPictures>CommonPicture.ВыравниваниеПоЛевомуКраю</commonPictures>
+  <commonPictures>CommonPicture.ВыравниваниеПоПравомуКраю</commonPictures>
+  <commonPictures>CommonPicture.ВыравниваниеПоЦентру</commonPictures>
+  <commonPictures>CommonPicture.ВыравниваниеПоШирине</commonPictures>
+  <commonPictures>CommonPicture.ГраницаВезде</commonPictures>
+  <commonPictures>CommonPicture.ГраницаВнутри</commonPictures>
+  <commonPictures>CommonPicture.ГраницаВокруг</commonPictures>
+  <commonPictures>CommonPicture.ГраницаСверху</commonPictures>
+  <commonPictures>CommonPicture.ГраницаСлева</commonPictures>
+  <commonPictures>CommonPicture.ГраницаСнизу</commonPictures>
+  <commonPictures>CommonPicture.ГраницаСправа</commonPictures>
+  <commonPictures>CommonPicture.ДлительнаяОперация16</commonPictures>
+  <commonPictures>CommonPicture.ДлительнаяОперация48</commonPictures>
+  <commonPictures>CommonPicture.ДобавитьКомплексныйВопрос</commonPictures>
+  <commonPictures>CommonPicture.ДобавитьПростойВопрос</commonPictures>
+  <commonPictures>CommonPicture.ДобавитьРазделАнкеты</commonPictures>
+  <commonPictures>CommonPicture.ДобавитьРодительский</commonPictures>
+  <commonPictures>CommonPicture.ДобавитьТабличныйВопрос</commonPictures>
+  <commonPictures>CommonPicture.ДобавитьУсловныйВопрос</commonPictures>
+  <commonPictures>CommonPicture.ДокументЗаписанКоннекторВерх</commonPictures>
+  <commonPictures>CommonPicture.ДокументЗаписанКоннекторВерхНиз</commonPictures>
+  <commonPictures>CommonPicture.ДокументЗаписанКоннекторЛево</commonPictures>
+  <commonPictures>CommonPicture.ДокументЗаписанКоннекторЛевоВерх</commonPictures>
+  <commonPictures>CommonPicture.ДокументЗаписанКоннекторЛевоНиз</commonPictures>
+  <commonPictures>CommonPicture.ДокументЗаписанКоннекторНиз</commonPictures>
+  <commonPictures>CommonPicture.ДокументПомеченНаУдалениеКоннекторВерх</commonPictures>
+  <commonPictures>CommonPicture.ДокументПомеченНаУдалениеКоннекторВерхНиз</commonPictures>
+  <commonPictures>CommonPicture.ДокументПомеченНаУдалениеКоннекторЛево</commonPictures>
+  <commonPictures>CommonPicture.ДокументПомеченНаУдалениеКоннекторЛевоВерх</commonPictures>
+  <commonPictures>CommonPicture.ДокументПомеченНаУдалениеКоннекторЛевоНиз</commonPictures>
+  <commonPictures>CommonPicture.ДокументПомеченНаУдалениеКоннекторНиз</commonPictures>
+  <commonPictures>CommonPicture.ДокументПроведенКоннекторВерх</commonPictures>
+  <commonPictures>CommonPicture.ДокументПроведенКоннекторВерхНиз</commonPictures>
+  <commonPictures>CommonPicture.ДокументПроведенКоннекторЛево</commonPictures>
+  <commonPictures>CommonPicture.ДокументПроведенКоннекторЛевоВерх</commonPictures>
+  <commonPictures>CommonPicture.ДокументПроведенКоннекторЛевоНиз</commonPictures>
+  <commonPictures>CommonPicture.ДокументПроведенКоннекторНиз</commonPictures>
+  <commonPictures>CommonPicture.ДополнительныеРеквизитыСведения</commonPictures>
+  <commonPictures>CommonPicture.ДополнительныеСведения</commonPictures>
+  <commonPictures>CommonPicture.ЗавершитьРаботу</commonPictures>
+  <commonPictures>CommonPicture.ЗавершитьРедактированиеМакета</commonPictures>
+  <commonPictures>CommonPicture.ЗакончитьРедактированиеФайла</commonPictures>
+  <commonPictures>CommonPicture.Заметка</commonPictures>
   <commonPictures>CommonPicture.ЗанятьФайл</commonPictures>
-  <commonPictures>CommonPicture.ИспользоватьПоставляемыйМакет</commonPictures>
   <commonPictures>CommonPicture.ЗапланированноеВзаимодействие</commonPictures>
+  <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
+  <commonPictures>CommonPicture.ЗаставкаВнешнейОперации</commonPictures>
+  <commonPictures>CommonPicture.Зашифрован</commonPictures>
+  <commonPictures>CommonPicture.ЗаявлениеНаВыпускСертификатаКлюча</commonPictures>
+  <commonPictures>CommonPicture.ЗнакСтоп</commonPictures>
+  <commonPictures>CommonPicture.ЗнакСтопЧБ</commonPictures>
+  <commonPictures>CommonPicture.ЗначокЗаставкиВнешнейОперации</commonPictures>
+  <commonPictures>CommonPicture.ЗначокЩита</commonPictures>
+  <commonPictures>CommonPicture.ИерархическийСписок</commonPictures>
+  <commonPictures>CommonPicture.ИзменитьШрифт</commonPictures>
+  <commonPictures>CommonPicture.Информация32</commonPictures>
+  <commonPictures>CommonPicture.ИнформацияПоНедоступнымПолям</commonPictures>
+  <commonPictures>CommonPicture.ИспользованиеМакета</commonPictures>
+  <commonPictures>CommonPicture.ИспользоватьПользовательскийМакет</commonPictures>
+  <commonPictures>CommonPicture.ИспользоватьПоставляемыйМакет</commonPictures>
+  <commonPictures>CommonPicture.ИсторияВерсий</commonPictures>
+  <commonPictures>CommonPicture.ИсторияИзменений</commonPictures>
+  <commonPictures>CommonPicture.Количество</commonPictures>
+  <commonPictures>CommonPicture.КоличествоРассмотрено</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияВажностьПроблемВеденияУчета</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияВариантыВажности</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияВидыАктивныхПользователей</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияВидыСобытийЖурналаРегистрации</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияДеревоАнкеты</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияДляПомеченныхНаУдалениеОбъектов</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияДоступныеАнкеты</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияЗадачиИБизнесПроцессы</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияЗаметки</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияКартинокСопоставлениеОбъектов</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияКонтролируемыеСобытия152ФЗ</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияНапоминания</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияОбъектыМетаданных</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияОтсутствуетСогласие</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияПиктограммНаличиеОригиналаПервичногоДокумента</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияПиктограммПараметрыШаблонаСообщения</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияПиктограммПечатныеФормыОригиналаПервичногоДокумента</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияПиктограммФайлов</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияПиктограммЭлементов</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияСкрепка</commonPictures>
+  <commonPictures>CommonPicture.Комментарий</commonPictures>
+  <commonPictures>CommonPicture.КомпьютерКлиент</commonPictures>
+  <commonPictures>CommonPicture.КомпьютерСервер</commonPictures>
+  <commonPictures>CommonPicture.КоннекторВерхНиз</commonPictures>
+  <commonPictures>CommonPicture.КоннекторВерхПраво</commonPictures>
+  <commonPictures>CommonPicture.КоннекторВерхПравоНиз</commonPictures>
+  <commonPictures>CommonPicture.КоннекторЛевоНизПраво</commonPictures>
+  <commonPictures>CommonPicture.КоннекторЛевоПраво</commonPictures>
+  <commonPictures>CommonPicture.КоннекторПравоНиз</commonPictures>
+  <commonPictures>CommonPicture.КонтактнаяИнформация</commonPictures>
+  <commonPictures>CommonPicture.КонтактнаяИнформацияНеактуально</commonPictures>
+  <commonPictures>CommonPicture.КонтактнаяИнформацияПерейтиПоСсылке</commonPictures>
+  <commonPictures>CommonPicture.КурсивноеНачертание</commonPictures>
+  <commonPictures>CommonPicture.Максимум</commonPictures>
+  <commonPictures>CommonPicture.МенюДополнительныеФункции</commonPictures>
+  <commonPictures>CommonPicture.Минимум</commonPictures>
+  <commonPictures>CommonPicture.НаписатьSMS</commonPictures>
+  <commonPictures>CommonPicture.Напоминание</commonPictures>
+  <commonPictures>CommonPicture.НастроитьСостоянияОригиналаПервичногоДокумента</commonPictures>
+  <commonPictures>CommonPicture.НезавершившаясяПроверка</commonPictures>
+  <commonPictures>CommonPicture.НетГраницы</commonPictures>
+  <commonPictures>CommonPicture.ОбновитьФайлИзФайлаНаДиске</commonPictures>
+  <commonPictures>CommonPicture.ОбновлениеВнешнихКомпонентССайта</commonPictures>
+  <commonPictures>CommonPicture.ОбъединитьЯчейки</commonPictures>
+  <commonPictures>CommonPicture.ОбычныйДоступСФлажком</commonPictures>
+  <commonPictures>CommonPicture.ОжидаемаяДлительнаяОперация16</commonPictures>
+  <commonPictures>CommonPicture.ОжидаемаяДлительнаяОперация48</commonPictures>
+  <commonPictures>CommonPicture.ОпубликоватьФайл</commonPictures>
+  <commonPictures>CommonPicture.Органайзер</commonPictures>
+  <commonPictures>CommonPicture.ОсвободитьФайл</commonPictures>
+  <commonPictures>CommonPicture.Отборы</commonPictures>
+  <commonPictures>CommonPicture.ОтветитьНаЭлектронноеПисьмо</commonPictures>
+  <commonPictures>CommonPicture.ОтветитьНаЭлектронноеПисьмоВсем</commonPictures>
+  <commonPictures>CommonPicture.ОткрытьВыбранныйФайл</commonPictures>
+  <commonPictures>CommonPicture.ОткрытьМакет</commonPictures>
+  <commonPictures>CommonPicture.ОтложитьРассмотрениеВзаимодействия</commonPictures>
+  <commonPictures>CommonPicture.ОтменитьРедактированиеМакета</commonPictures>
+  <commonPictures>CommonPicture.ОтправитьSMS</commonPictures>
   <commonPictures>CommonPicture.ОтправитьПолучитьПочту</commonPictures>
   <commonPictures>CommonPicture.ОтправитьЭлектронноеПисьмо</commonPictures>
   <commonPictures>CommonPicture.ОтсутствуетСогласие</commonPictures>
@@ -554,8 +557,8 @@
   <roles>Role.ИзменениеМакетовПечатныхФорм</roles>
   <roles>Role.ИзменениеСостоянийОригиналовПервичныхДокументов</roles>
   <roles>Role.ИзменениеУчастниковГруппДоступа</roles>
-  <roles>Role.инкВключитьРассылкуОНовыхЗадачахИзменение</roles>
-  <roles>Role.инкВключитьРассылкуОНовыхЗадачахЧтение</roles>
+  <roles>Role.инкДиалогиКЗадачамДобавлениеИзменение</roles>
+  <roles>Role.инкДиалогиКЗадачамЧтение</roles>
   <roles>Role.инкДоскаЗадачПользователей</roles>
   <roles>Role.инкЗадачаПользователяДобавлениеИзменение</roles>
   <roles>Role.инкЗадачаПользователяПрисоединенныеФайлыДобавлениеИзменение</roles>
@@ -572,6 +575,8 @@
   <roles>Role.инкПутиККаталогамЗадачДобавлениеИзменение</roles>
   <roles>Role.инкПутиККаталогамЗадачЧтение</roles>
   <roles>Role.инкСтандартныеНастройкиИнтерфейса</roles>
+  <roles>Role.инкЦенаЧасаПоПроектуИзменение</roles>
+  <roles>Role.инкЦенаЧасаПоПроектуЧтение</roles>
   <roles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</roles>
   <roles>Role.ИспользованиеОбработкиТекущиеДела</roles>
   <roles>Role.ИспользованиеУниверсальногоОтчета</roles>
@@ -608,7 +613,7 @@
   <roles>Role.ЧтениеСостоянийОригиналовПервичныхДокументов</roles>
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
   <roles>Role.ЧтениеШаблоновСообщений</roles>
-  <commonTemplates>CommonTemplate.инкИнструкцияКДобавлениюПрисодединеннымФайлам</commonTemplates>
+  <commonTemplates>CommonTemplate.инкИнструкцияКДобавлениюПрисоединеннымФайлам</commonTemplates>
   <commonTemplates>CommonTemplate.инкОписаниеИзмененийСистемы</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияКакВыполнитьУстановкуОбновленияВручную</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияПоСозданиюФаксимильнойПодписиИПечати</commonTemplates>
@@ -1387,7 +1392,6 @@
   <commonCommands>CommonCommand.ЗагрузитьПравилаРегистрацииОбъектов</commonCommands>
   <commonCommands>CommonCommand.ЗадачиПоБизнесПроцессу</commonCommands>
   <commonCommands>CommonCommand.ЗадачиПоПредмету</commonCommands>
-  <commonCommands>CommonCommand.инкВключитьРассылкуОНовыхЗадачах</commonCommands>
   <commonCommands>CommonCommand.инкНаблюдателиПоПроектам</commonCommands>
   <commonCommands>CommonCommand.инкОтправкаСообщенийПриИзмененииЗадачи</commonCommands>
   <commonCommands>CommonCommand.инкПолучатьФайлыКЗадачеПриСозданииКаталога</commonCommands>
@@ -1466,10 +1470,9 @@
   <constants>Constant.ИдентификаторИнформационнойБазы</constants>
   <constants>Constant.ИзвлекатьТекстыФайловНаСервере</constants>
   <constants>Constant.ИзменятьЗаданияЗаднимЧислом</constants>
-  <constants>Constant.инкСтандартныеНастройкиИнтерфейса</constants>
-  <constants>Constant.инкВключитьРассылкуОНовыхЗадачах</constants>
   <constants>Constant.инкОтправкаСообщенийПриИзмененииЗадачи</constants>
   <constants>Constant.инкПолучатьФайлыКЗадачеПриСозданииКаталога</constants>
+  <constants>Constant.инкСтандартныеНастройкиИнтерфейса</constants>
   <constants>Constant.ИспользованиеКаталогаДополнительныхОтчетовИОбработокВМоделиСервиса</constants>
   <constants>Constant.ИспользоватьАвтономнуюРаботуВМоделиСервиса</constants>
   <constants>Constant.ИспользоватьАльтернативныйСерверДляЗагрузкиКурсовВалют</constants>
@@ -1872,7 +1875,6 @@
   <dataProcessors>DataProcessor.КонвертацияОбъектовXDTO</dataProcessors>
   <dataProcessors>DataProcessor.КонвертацияОбъектовИнформационныхБаз</dataProcessors>
   <dataProcessors>DataProcessor.КонвертацияОбъектовРаспределенныхИнформационныхБаз</dataProcessors>
-  <dataProcessors>DataProcessor.КонсольЗапросов_82</dataProcessors>
   <dataProcessors>DataProcessor.ЛегальностьПолученияОбновлений</dataProcessors>
   <dataProcessors>DataProcessor.НастройкаРазрешенийНаИспользованиеВнешнихРесурсов</dataProcessors>
   <dataProcessors>DataProcessor.НастройкаРезервногоКопированияИБ</dataProcessors>
@@ -1948,8 +1950,10 @@
   <informationRegisters>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</informationRegisters>
   <informationRegisters>InformationRegister.ИдентификаторыПолученныхЭлектронныхПисем</informationRegisters>
   <informationRegisters>InformationRegister.ИзмененияОбщихДанныхУзлов</informationRegisters>
+  <informationRegisters>InformationRegister.инкДиалогиКЗадачам</informationRegisters>
   <informationRegisters>InformationRegister.инкНаблюдателиПоПроектам</informationRegisters>
   <informationRegisters>InformationRegister.инкПутиККаталогамЗадач</informationRegisters>
+  <informationRegisters>InformationRegister.инкЦенаЧасаПоПроекту</informationRegisters>
   <informationRegisters>InformationRegister.ИсполнителиЗадач</informationRegisters>
   <informationRegisters>InformationRegister.ИспользованиеДополнительныхОтчетовИОбработокСервисаВАвтономномРабочемМесте</informationRegisters>
   <informationRegisters>InformationRegister.ИспользованиеПоставляемыхДополнительныхОтчетовИОбработокВОбластяхДанных</informationRegisters>

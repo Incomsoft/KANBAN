@@ -17,6 +17,12 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <defaultRecordForm>InformationRegister.инкПутиККаталогамЗадач.Form.ФормаЗаписи</defaultRecordForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <dataLockControlMode>Managed</dataLockControlMode>
   <dimensions uuid="2b8f1341-2696-4fbf-b46f-b415570e7551">
     <name>ПроектКЗадаче</name>

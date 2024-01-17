@@ -554,9 +554,9 @@
       <commands>DataProcessor.НастройкиЦентраМониторинга.Command.ПроблемыПроизводительности</commands>
       <commands>CommonForm.УстановленныеИсправления.StandardCommand.Open</commands>
       <commands>DataProcessor.НастройкаСтандартногоИнтерфейсаOData.StandardCommand.Open</commands>
-      <commands>DataProcessor.КонсольЗапросов_82.StandardCommand.Open</commands>
+      <commands>0:8633f1c9-5247-40a7-a5f0-9bcaf2843eff</commands>
       <commands>100:6a383d1f-5f40-4cf4-83ea-8ec392118c9f</commands>
-      <commands>Constant.инкВключитьРассылкуОНовыхЗадачах.StandardCommand.Open</commands>
+      <commands>100:2ca9b095-1038-4633-9969-e7ca062c89da</commands>
       <commands>Constant.инкОтправкаСообщенийПриИзмененииЗадачи.StandardCommand.Open</commands>
       <commands>Constant.инкПолучатьФайлыКЗадачеПриСозданииКаталога.StandardCommand.Open</commands>
     </orderFragments>

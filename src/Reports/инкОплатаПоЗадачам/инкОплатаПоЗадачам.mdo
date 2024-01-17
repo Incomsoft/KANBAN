@@ -11,6 +11,12 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.инкОплатаПоЗадачам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <templates uuid="fbf385a8-ba7f-411b-81e7-9911adc8f0b7">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

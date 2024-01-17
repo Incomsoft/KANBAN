@@ -56,6 +56,26 @@
 			<dataPath>НаименованиеДляДоски</dataPath>
 			<field>НаименованиеДляДоски</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОплатаПлан</dataPath>
+			<field>ОплатаПлан</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оплата план</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОплатаФакт</dataPath>
+			<field>ОплатаФакт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оплата факт</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	инкЗадачаПользователя.Ссылка КАК Задача,
@@ -68,9 +88,14 @@
 	инкЗадачаПользователя.Дата КАК Дата,
 	инкЗадачаПользователя.Приоритет КАК Приоритет,
 	инкЗадачаПользователя.Исполнитель КАК Исполнитель,
-	инкЗадачаПользователя.НаименованиеДляДоски КАК НаименованиеДляДоски
+	инкЗадачаПользователя.НаименованиеДляДоски КАК НаименованиеДляДоски,
+	ЕСТЬNULL(инкЗадачаПользователя.ЧасыПлан, 0) * ЕСТЬNULL(инкЦенаЧасаПоПроекту.ЦенаЗаЧас, 0) КАК ОплатаПлан,
+	ЕСТЬNULL(инкЗадачаПользователя.ЧасыФакт, 0) * ЕСТЬNULL(инкЦенаЧасаПоПроекту.ЦенаЗаЧас, 0) КАК ОплатаФакт
 ИЗ
 	Задача.инкЗадачаПользователя КАК инкЗадачаПользователя
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.инкЦенаЧасаПоПроекту КАК инкЦенаЧасаПоПроекту
+		ПО инкЗадачаПользователя.Исполнитель = инкЦенаЧасаПоПроекту.Исполнитель
+			И инкЗадачаПользователя.Проект = инкЦенаЧасаПоПроекту.Проект
 ГДЕ
 	НЕ инкЗадачаПользователя.ПометкаУдаления</query>
 	</dataSet>
@@ -81,6 +106,14 @@
 	<totalField>
 		<dataPath>ЧасыФакт</dataPath>
 		<expression>Сумма(ЧасыФакт)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ОплатаПлан</dataPath>
+		<expression>Сумма(ОплатаПлан)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ОплатаФакт</dataPath>
+		<expression>Сумма(ОплатаФакт)</expression>
 	</totalField>
 	<template>
 		<name>Макет3</name>
@@ -323,6 +356,12 @@
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>ЧасыФакт</dcsset:field>
 				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОплатаПлан</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОплатаФакт</dcsset:field>
+				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:filter>
 				<dcsset:item xsi:type="dcsset:FilterItemComparison">
@@ -352,6 +391,30 @@
 					<dcsset:orderType>Asc</dcsset:orderType>
 				</dcsset:item>
 			</dcsset:order>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ОплатаПлан</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ОплатаФакт</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧДЦ=2</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:order>
 					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>

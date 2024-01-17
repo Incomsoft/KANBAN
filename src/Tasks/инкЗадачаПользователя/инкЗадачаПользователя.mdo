@@ -17,6 +17,12 @@
   <inputByString>Task.инкЗадачаПользователя.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <dataHistory>Use</dataHistory>
@@ -86,21 +92,6 @@
     <synonym>
       <key>ru</key>
       <value>Оплачена</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="25939b7f-cff2-41e3-8396-2f478227bfb8">
-    <name>ОтправкаПисьмаОНовойЗадаче</name>
-    <synonym>
-      <key>ru</key>
-      <value>Отправка письма о новой задаче</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -274,10 +265,10 @@
       <objectType typeId="013370c4-b221-40b1-bdaf-3eb1a0d996bd" valueTypeId="aa50f98c-7aa9-4a08-a8d6-658b83b559e3"/>
       <rowType typeId="e72dc913-48ba-4b7b-8c0c-7188b0c2cd45" valueTypeId="9785f876-2090-47ee-8f3f-773c86327cc0"/>
     </producedTypes>
-    <name>ДиалогиКЗадачеТаблица</name>
+    <name>ДиалогиКЗадачеТаблицаУдалить</name>
     <synonym>
       <key>ru</key>
-      <value>Диалоги к задаче таблица</value>
+      <value>Диалоги к задаче таблица удалить</value>
     </synonym>
     <attributes uuid="121dd39c-d058-49f9-9c64-3de095e48843">
       <name>Автор</name>
@@ -312,27 +303,13 @@
       <name>ИДСообщения</name>
       <synonym>
         <key>ru</key>
-        <value>ИДСообщения</value>
+        <value>ИД сообщения</value>
       </synonym>
       <type>
         <types>String</types>
         <stringQualifiers>
           <length>36</length>
         </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="c70e809c-8b18-4274-aeec-7d8ce2c7b250">
-      <name>СообщениеДиалога</name>
-      <synonym>
-        <key>ru</key>
-        <value>Сообщение диалога</value>
-      </synonym>
-      <type>
-        <types>ValueStorage</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -347,6 +324,20 @@
       </synonym>
       <type>
         <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c70e809c-8b18-4274-aeec-7d8ce2c7b250">
+      <name>СообщениеДиалога</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сообщение диалога</value>
+      </synonym>
+      <type>
+        <types>ValueStorage</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -372,6 +363,31 @@
       </synonym>
       <type>
         <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="f330b276-ba00-4b68-8be7-0673963ec206">
+    <producedTypes>
+      <objectType typeId="fd9505d9-9f16-43f2-ba69-75367bb4218a" valueTypeId="92fccdb9-ecd1-48d2-a6af-a3bea97f3dba"/>
+      <rowType typeId="02cbac4a-84ca-4132-873e-dc73c2151239" valueTypeId="2061eaec-d71e-4390-890b-4efa5cced545"/>
+    </producedTypes>
+    <name>СвязанныеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связанные задачи</value>
+    </synonym>
+    <attributes uuid="ea86eb3d-b62e-4ea8-ac7c-9b5bd659d421">
+      <name>СвязаннаяЗадача</name>
+      <synonym>
+        <key>ru</key>
+        <value>Связанная задача</value>
+      </synonym>
+      <type>
+        <types>TaskRef.инкЗадачаПользователя</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

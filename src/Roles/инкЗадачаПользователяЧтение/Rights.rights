@@ -11,7 +11,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Task.инкЗадачаПользователя.TabularSection.ДиалогиКЗадачеТаблица.Attribute.Автор</name>
+		<name>Task.инкЗадачаПользователя.TabularSection.ДиалогиКЗадачеТаблицаУдалить.Attribute.Автор</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -52,13 +52,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Task.инкЗадачаПользователя.Attribute.ОтправкаПисьмаОНовойЗадаче</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Task.инкЗадачаПользователя.Attribute.ЧасыПлан</name>
 		<right>
 			<name>Edit</name>
@@ -73,7 +66,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Task.инкЗадачаПользователя.TabularSection.ДиалогиКЗадачеТаблица.Attribute.ИДСообщения</name>
+		<name>Task.инкЗадачаПользователя.TabularSection.ДиалогиКЗадачеТаблицаУдалить.Attribute.ИДСообщения</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -260,21 +253,21 @@
 		</right>
 	</object>
 	<object>
-		<name>Task.инкЗадачаПользователя.TabularSection.ДиалогиКЗадачеТаблица</name>
+		<name>Task.инкЗадачаПользователя.TabularSection.ДиалогиКЗадачеТаблицаУдалить</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Task.инкЗадачаПользователя.TabularSection.ДиалогиКЗадачеТаблица.Attribute.СообщениеДиалога</name>
+		<name>Task.инкЗадачаПользователя.TabularSection.ДиалогиКЗадачеТаблицаУдалить.Attribute.СообщениеДиалога</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Task.инкЗадачаПользователя.TabularSection.ДиалогиКЗадачеТаблица.Attribute.Дата</name>
+		<name>Task.инкЗадачаПользователя.TabularSection.ДиалогиКЗадачеТаблицаУдалить.Attribute.Дата</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

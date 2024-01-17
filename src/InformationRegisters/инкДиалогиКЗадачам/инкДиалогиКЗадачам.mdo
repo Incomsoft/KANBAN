@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05a065dd-68e5-492f-9f9d-155c3bf3d9d9">
+  <producedTypes>
+    <selectionType typeId="38dc1852-5ccf-43c6-82ea-5c9c2a3f364b" valueTypeId="d43953d0-2276-4670-b331-ad85f4e01c4d"/>
+    <listType typeId="8acdbdfe-6b01-4b59-9d10-ede41dede96d" valueTypeId="9a598bc8-da7f-402c-8ad2-04fc44af2271"/>
+    <managerType typeId="df84f691-4b65-44b7-a193-4442fffe6c10" valueTypeId="e2c3b622-3cc1-4dc5-adce-a3ffdbbc1c40"/>
+    <recordSetType typeId="729b962a-50bb-417d-a8a8-6452c5e38316" valueTypeId="9b173bc3-6afc-462c-a0f4-304a0211cd2d"/>
+    <recordKeyType typeId="47b8a996-d1cb-49f7-82c8-bb1e3147e1b0" valueTypeId="48f7956b-bd57-41da-ac3d-176b04450baa"/>
+    <recordType typeId="acd95e3b-4412-4b74-8728-3f2fa38e167f" valueTypeId="ff9e88a1-53d3-4dc5-bb0b-6eba1368c664"/>
+    <recordManagerType typeId="2ac1b846-9e4f-4fde-b17e-840e3bcfcadd" valueTypeId="bcc98731-e5f6-43b2-873a-bbaf34e45893"/>
+  </producedTypes>
+  <name>инкДиалогиКЗадачам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диалоги к задачам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3c4d23f4-856d-4982-b0b8-a97d07cbc4e8">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="13a5f7ab-eb4f-4b09-9670-7d1069f1c416">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bee7cbfb-7c1c-44c5-8183-02130fb5686a">
+    <name>РассылкаВыполнена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассылка выполнена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a94e8006-5a41-4968-9763-f75bc1c59364">
+    <name>СообщениеДиалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение диалога</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e837c464-3862-4cd8-a950-d1bbaf75b55d">
+    <name>ЗадачаПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача пользователя</value>
+    </synonym>
+    <type>
+      <types>TaskRef.инкЗадачаПользователя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="47614efe-7240-412a-a37c-834c344fdeb9">
+    <name>ИДСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИД сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3f032aaa-6d63-458b-b67f-ea0cc1411bd7">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.инкПроектыКЗадачам</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

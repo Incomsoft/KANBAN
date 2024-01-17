@@ -2049,10 +2049,6 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <handlers>
-    <event>ActivationProcessing</event>
-    <name>ОбработкаАктивизации</name>
-  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -2192,27 +2188,6 @@
     </edit>
   </attributes>
   <formCommands>
-    <name>ФильтрПоИсполнителю</name>
-    <title>
-      <key>ru</key>
-      <value>Фильтр по исполнителю</value>
-    </title>
-    <id>1</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Фильтр по исполнителю</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ФильтрПоИсполнителю</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
     <name>СоздатьЗадачу</name>
     <title>
       <key>ru</key>
@@ -2321,14 +2296,4 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:TaskFormExtInfo">
-    <handlers>
-      <event>AfterWriteAtServer</event>
-      <name>ПослеЗаписиНаСервере</name>
-    </handlers>
-    <handlers>
-      <event>ActivationProcessing</event>
-      <name>ОбработкаАктивизации</name>
-    </handlers>
-  </extInfo>
 </form:Form>

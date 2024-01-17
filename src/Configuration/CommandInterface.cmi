@@ -2,7 +2,7 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <subsystemsOrder>
     <subsystems>bf3f4e43-e770-428a-a434-ad076d98e73b</subsystems>
-    <subsystems>Subsystem.инкДоскаЗадачПользователей</subsystems>
+    <subsystems>6428097f-7a7a-4c3c-889a-e946a5dfde3b</subsystems>
     <subsystems>Subsystem.инкДоскаЗадачПользователейОтображение</subsystems>
     <subsystems>Subsystem.инкСлужебные</subsystems>
     <subsystems>Subsystem.Администрирование</subsystems>

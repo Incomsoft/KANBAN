@@ -107,9 +107,9 @@
   <content>Catalog.СостоянияОригиналовПервичныхДокументов</content>
   <content>InformationRegister.инкПутиККаталогамЗадач</content>
   <content>6a383d1f-5f40-4cf4-83ea-8ec392118c9f</content>
-  <content>DataProcessor.КонсольЗапросов_82</content>
-  <content>Constant.инкВключитьРассылкуОНовыхЗадачах</content>
+  <content>8633f1c9-5247-40a7-a5f0-9bcaf2843eff</content>
+  <content>2ca9b095-1038-4633-9969-e7ca062c89da</content>
   <content>Constant.инкОтправкаСообщенийПриИзмененииЗадачи</content>
   <content>Constant.инкПолучатьФайлыКЗадачеПриСозданииКаталога</content>
-  <subsystems>инкДоскаЗадач</subsystems>
+  <subsystems>инкДоскаЗадачАдминистрирование</subsystems>
 </mdclass:Subsystem>

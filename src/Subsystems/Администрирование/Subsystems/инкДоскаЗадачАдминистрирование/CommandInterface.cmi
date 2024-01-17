@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>InformationRegister.инкЦенаЧасаПоПроекту.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>InformationRegister.инкЦенаЧасаПоПроекту.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>CommonCommand.инкОтправкаСообщенийПриИзмененииЗадачи</commands>
+      <commands>CommonCommand.инкПолучатьФайлыКЗадачеПриСозданииКаталога</commands>
+      <commands>CommonCommand.инкСтандартныеНастройкиИнтерфейса</commands>
+      <commands>CommonCommand.инкПутиККаталогамЗадач</commands>
+      <commands>CommonCommand.инкНаблюдателиПоПроектам</commands>
+      <commands>InformationRegister.инкЦенаЧасаПоПроекту.Command.инкЦенаЧасаПоПроекту</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>InformationRegister.инкЦенаЧасаПоПроекту.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

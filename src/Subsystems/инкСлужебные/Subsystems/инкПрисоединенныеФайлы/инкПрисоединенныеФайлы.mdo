@@ -6,6 +6,11 @@
     <value>Присоединенные файлы</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DefinedType.ПрисоединенныйФайл</content>
   <content>DefinedType.ПрисоединенныйФайлОбъект</content>
@@ -14,7 +19,7 @@
   <content>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайлов</content>
   <content>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайловДокументовВзаимодействия</content>
   <content>EventSubscription.ПереопределитьПолучаемуюФормуПрисоединенногоФайла</content>
-  <content>CommonTemplate.инкИнструкцияКДобавлениюПрисодединеннымФайлам</content>
+  <content>CommonTemplate.инкИнструкцияКДобавлениюПрисоединеннымФайлам</content>
   <content>CommonModule.РаботаСФайламиВТомахСлужебный</content>
   <parentSubsystem>Subsystem.инкСлужебные</parentSubsystem>
 </mdclass:Subsystem>

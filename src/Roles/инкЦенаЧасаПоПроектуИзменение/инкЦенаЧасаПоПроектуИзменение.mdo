@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65105572-2cd8-4d3b-af87-0f0ad95159fe">
+  <name>инкЦенаЧасаПоПроектуИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цена часа по проекту (изменение)</value>
+  </synonym>
+</mdclass:Role>

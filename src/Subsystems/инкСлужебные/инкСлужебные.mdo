@@ -3,10 +3,16 @@
   <name>инкСлужебные</name>
   <synonym>
     <key>ru</key>
-    <value>Cлужебные</value>
+    <value>Служебные</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <subsystems>инкДоскаЗадачПользователей</subsystems>
   <subsystems>инкОбновлениеКонфигурацииСлужебный</subsystems>
   <subsystems>инкПрисоединенныеФайлы</subsystems>
 </mdclass:Subsystem>

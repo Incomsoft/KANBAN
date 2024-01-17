@@ -38,13 +38,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.инкДоскаЗадачПользователей</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Task.инкЗадачаПользователя.Command.КомандаДоскаЗадачПользователей</name>
 		<right>
 			<name>View</name>

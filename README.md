@@ -11,8 +11,4 @@
 Распростроняется в рамках лицензии 1с. 
 #### Разработчик: 
 Чесноков Михаил Сереевич (mikas-2008@yandex.ru) 
-#### Публикация на Инфостате:
-https://infostart.ru/1c/tools/1820647/
-#### Логотип Инфостат:
-https://infostart.ru/bitrix/templates/sandbox_empty/assets/tpl/abo/img/logo.svg
 #### Copyright (С) ООО "Инкомсофт", 2002 - 2023. Все права защищены. Разработчик: Чесноков Михаил Сереевич (mikas-2008@yandex.ru)

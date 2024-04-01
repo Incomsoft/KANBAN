@@ -724,11 +724,107 @@
 			</c>
 		</row>
 	</rowsItem>
+	<rowsItem>
+		<index>45</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>46</index>
+		<row>
+			<formatIndex>6</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Новое в версии 1.0.1.11</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>47</index>
+		<row>
+			<formatIndex>14</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>* Переход на корректную нумерацию продукта.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>48</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>49</index>
+		<row>
+			<formatIndex>6</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Новое в версии 1.0.1.12</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>50</index>
+		<row>
+			<formatIndex>14</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>* Исправление отборов в канбан доске (списке задач).</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>3</defaultFormatIndex>
-	<height>45</height>
+	<height>51</height>
 	<vgLevels>1</vgLevels>
-	<vgRows>45</vgRows>
+	<vgRows>51</vgRows>
 	<vg>
 		<b>2</b>
 		<e>5</e>
@@ -849,6 +945,26 @@
 			<type>Rows</type>
 			<beginRow>38</beginRow>
 			<endRow>38</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Версия1_0_1_11</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>47</beginRow>
+			<endRow>47</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Версия1_0_1_12</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>50</beginRow>
+			<endRow>50</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -989,6 +1105,26 @@
 			<type>Rows</type>
 			<beginRow>37</beginRow>
 			<endRow>37</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Шапка1_0_1_11</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>46</beginRow>
+			<endRow>46</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Шапка1_0_1_12</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>49</beginRow>
+			<endRow>49</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>

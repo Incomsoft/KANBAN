@@ -21,7 +21,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>ООО &quot;Инкомсофт&quot;</vendor>
-  <version>1.0.0.11</version>
+  <version>1.0.1.12</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>

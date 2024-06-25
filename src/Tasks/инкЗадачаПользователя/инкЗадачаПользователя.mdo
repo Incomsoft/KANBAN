@@ -395,13 +395,12 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <forms uuid="8787de66-3bed-4978-98da-8ab5742ed697">
-    <name>ФормаЗадачи</name>
+  <forms uuid="b9f36e0a-c9ae-4e2a-971a-b5c2802ded93">
+    <name>ФормаБыстраяЗаметка</name>
     <synonym>
       <key>ru</key>
-      <value>Форма задачи</value>
+      <value>Форма быстрая заметка</value>
     </synonym>
-    <includeHelpInContents>true</includeHelpInContents>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -411,6 +410,16 @@
       <key>ru</key>
       <value>Диалоги к задаче</value>
     </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8787de66-3bed-4978-98da-8ab5742ed697">
+    <name>ФормаЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма задачи</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

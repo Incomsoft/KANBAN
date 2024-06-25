@@ -12,6 +12,27 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4ab97dd4-aeee-4cfe-a2c0-376cd78e6dfa">
+    <name>БыстраяЗаметка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Быстрая заметка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="19a9958b-b486-4787-9575-3b5e58077718">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b838608b-89e7-4779-8eab-41da1da28997">
+    <name>Завершено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершено</value>
+    </synonym>
+  </enumValues>
   <enumValues uuid="d510dcf8-a6b0-489c-80f8-56542ce118be">
     <name>КВыполнению</name>
     <synonym>
@@ -26,25 +47,11 @@
       <value>Пауза</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="19a9958b-b486-4787-9575-3b5e58077718">
-    <name>ВРаботе</name>
-    <synonym>
-      <key>ru</key>
-      <value>В работе</value>
-    </synonym>
-  </enumValues>
   <enumValues uuid="086cf2ea-d056-4f15-899a-67688051fe17">
     <name>Тестирование</name>
     <synonym>
       <key>ru</key>
       <value>Тестирование</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="b838608b-89e7-4779-8eab-41da1da28997">
-    <name>Завершено</name>
-    <synonym>
-      <key>ru</key>
-      <value>Завершено</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

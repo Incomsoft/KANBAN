@@ -669,6 +669,26 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="2954d576-927f-40de-bc48-928697107c5e">
+    <name>ИДСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДСообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="0fe651e1-99f7-4599-af8f-0e974162ea4a">
     <producedTypes>
       <objectType typeId="596ba837-96f8-46c4-accd-5c28864d328d" valueTypeId="f8023dd5-8495-491d-a550-2a809b122b5f"/>

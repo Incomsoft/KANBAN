@@ -106,7 +106,7 @@
   </items>
   <items xsi:type="form:FormField">
     <name>Наименование</name>
-    <id>4</id>
+    <id>66</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -117,7 +117,7 @@
     </dataPath>
     <extendedTooltip>
       <name>НаименованиеРасширеннаяПодсказка</name>
-      <id>6</id>
+      <id>68</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -132,7 +132,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>НаименованиеКонтекстноеМеню</name>
-      <id>5</id>
+      <id>67</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -141,15 +141,13 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:InputFieldExtInfo">
-      <height>10</height>
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
-      <multiLine>true</multiLine>
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
@@ -287,6 +285,98 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаПанельРедактирования</name>
+    <id>72</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа панель редактирования</value>
+    </title>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа панель редактирования</value>
+    </toolTip>
+    <extendedTooltip>
+      <name>ГруппаПанельРедактированияРасширеннаяПодсказка</name>
+      <id>73</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>CommandBar</type>
+    <extInfo xsi:type="form:CommandBarExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+      <commandSource>Item.мКомментарийКЗадаче</commandSource>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>мКомментарийКЗадаче</name>
+    <id>69</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>мКомментарийКЗадаче</segments>
+    </dataPath>
+    <defaultItem>true</defaultItem>
+    <extendedTooltip>
+      <name>мКомментарийКЗадачеРасширеннаяПодсказка</name>
+      <id>71</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>мКомментарийКЗадачеКонтекстноеМеню</name>
+      <id>70</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>FormattedDocumentField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:FormattedDocFieldExtInfo">
+      <width>50</width>
+      <autoMaxWidth>true</autoMaxWidth>
+      <height>6</height>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <verticalStretch>true</verticalStretch>
+      <font xsi:type="core:FontRef">
+        <font>Style.NormalTextFont</font>
+        <height>12.0</height>
+      </font>
+    </extInfo>
+  </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -362,6 +452,59 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
+  <attributes>
+    <name>мКомментарийКЗадаче</name>
+    <title>
+      <key>ru</key>
+      <value>Комментарий к задаче</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>FormattedDocument</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>мИДСообщения</name>
+    <title>
+      <key>ru</key>
+      <value>М ИДСообщения</value>
+    </title>
+    <id>3</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>мДатаСообщения</name>
+    <title>
+      <key>ru</key>
+      <value>М дата сообщения</value>
+    </title>
+    <id>4</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ЗаписатьИЗакрыть</name>
     <title>
@@ -387,5 +530,14 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:TaskFormExtInfo"/>
+  <extInfo xsi:type="form:TaskFormExtInfo">
+    <handlers>
+      <event>AfterWriteAtServer</event>
+      <name>ПослеЗаписиНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>OnWriteAtServer</event>
+      <name>ПриЗаписиНаСервере</name>
+    </handlers>
+  </extInfo>
 </form:Form>

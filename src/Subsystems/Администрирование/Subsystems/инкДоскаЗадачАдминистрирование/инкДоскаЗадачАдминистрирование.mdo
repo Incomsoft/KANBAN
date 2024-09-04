@@ -18,5 +18,6 @@
   <content>CommonCommand.инкПутиККаталогамЗадач</content>
   <content>CommonCommand.инкНаблюдателиПоПроектам</content>
   <content>InformationRegister.инкЦенаЧасаПоПроекту</content>
+  <content>CommonCommand.инкИсполнительПоПроекту</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

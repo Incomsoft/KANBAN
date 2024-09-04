@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a05ddbce-1e2e-41e8-b39b-8984e6ab684c">
+  <name>инкИсполнительПоПроектуДобавлениеИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исполнитель по проекту (добавление/изменение)</value>
+  </synonym>
+</mdclass:Role>

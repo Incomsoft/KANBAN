@@ -20,6 +20,7 @@
       <commands>CommonCommand.инкСтандартныеНастройкиИнтерфейса</commands>
       <commands>CommonCommand.инкПутиККаталогамЗадач</commands>
       <commands>CommonCommand.инкНаблюдателиПоПроектам</commands>
+      <commands>CommonCommand.инкИсполнительПоПроекту</commands>
       <commands>InformationRegister.инкЦенаЧасаПоПроекту.Command.инкЦенаЧасаПоПроекту</commands>
     </orderFragments>
     <orderFragments>

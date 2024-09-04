@@ -21,7 +21,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>ООО &quot;Инкомсофт&quot;</vendor>
-  <version>1.0.1.14</version>
+  <version>1.0.1.15</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -565,6 +565,8 @@
   <roles>Role.инкЗадачаПользователяПрисоединенныеФайлыЧтение</roles>
   <roles>Role.инкЗадачаПользователяЧтение</roles>
   <roles>Role.инкЗадачи</roles>
+  <roles>Role.инкИсполнительПоПроектуДобавлениеИзменение</roles>
+  <roles>Role.инкИсполнительПоПроектуЧтение</roles>
   <roles>Role.инкНаблюдателиПоПроектамДобавлениеИзменение</roles>
   <roles>Role.инкНаблюдателиПоПроектамЧтение</roles>
   <roles>Role.инкОплатаПоЗадачам</roles>
@@ -1392,6 +1394,7 @@
   <commonCommands>CommonCommand.ЗагрузитьПравилаРегистрацииОбъектов</commonCommands>
   <commonCommands>CommonCommand.ЗадачиПоБизнесПроцессу</commonCommands>
   <commonCommands>CommonCommand.ЗадачиПоПредмету</commonCommands>
+  <commonCommands>CommonCommand.инкИсполнительПоПроекту</commonCommands>
   <commonCommands>CommonCommand.инкНаблюдателиПоПроектам</commonCommands>
   <commonCommands>CommonCommand.инкОтправкаСообщенийПриИзмененииЗадачи</commonCommands>
   <commonCommands>CommonCommand.инкПолучатьФайлыКЗадачеПриСозданииКаталога</commonCommands>
@@ -1951,6 +1954,7 @@
   <informationRegisters>InformationRegister.ИдентификаторыПолученныхЭлектронныхПисем</informationRegisters>
   <informationRegisters>InformationRegister.ИзмененияОбщихДанныхУзлов</informationRegisters>
   <informationRegisters>InformationRegister.инкДиалогиКЗадачам</informationRegisters>
+  <informationRegisters>InformationRegister.инкИсполнительПоПроекту</informationRegisters>
   <informationRegisters>InformationRegister.инкНаблюдателиПоПроектам</informationRegisters>
   <informationRegisters>InformationRegister.инкПутиККаталогамЗадач</informationRegisters>
   <informationRegisters>InformationRegister.инкЦенаЧасаПоПроекту</informationRegisters>

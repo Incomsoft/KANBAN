@@ -71,5 +71,8 @@
   <content>Role.инкИсполнительПоПроектуЧтение</content>
   <content>CommonCommand.инкИсполнительПоПроекту</content>
   <content>InformationRegister.инкИсполнительПоПроекту</content>
+  <content>Catalog.инкЗадачаПользователяИерархия</content>
+  <content>Role.инкЗадачаПользователяИерархияДобавлениеИзменение</content>
+  <content>Role.инкЗадачаПользователяИерархияЧтение</content>
   <parentSubsystem>Subsystem.инкСлужебные</parentSubsystem>
 </mdclass:Subsystem>

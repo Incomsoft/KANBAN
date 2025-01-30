@@ -21,7 +21,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>ООО &quot;Инкомсофт&quot;</vendor>
-  <version>1.0.1.15</version>
+  <version>1.0.1.17</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -561,6 +561,8 @@
   <roles>Role.инкДиалогиКЗадачамЧтение</roles>
   <roles>Role.инкДоскаЗадачПользователей</roles>
   <roles>Role.инкЗадачаПользователяДобавлениеИзменение</roles>
+  <roles>Role.инкЗадачаПользователяИерархияДобавлениеИзменение</roles>
+  <roles>Role.инкЗадачаПользователяИерархияЧтение</roles>
   <roles>Role.инкЗадачаПользователяПрисоединенныеФайлыДобавлениеИзменение</roles>
   <roles>Role.инкЗадачаПользователяПрисоединенныеФайлыЧтение</roles>
   <roles>Role.инкЗадачаПользователяЧтение</roles>
@@ -1697,6 +1699,7 @@
   <catalogs>Catalog.ЗначенияСвойствОбъектовИерархия</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
+  <catalogs>Catalog.инкЗадачаПользователяИерархия</catalogs>
   <catalogs>Catalog.инкЗадачаПользователяПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.инкПроектыКЗадачам</catalogs>
   <catalogs>Catalog.Календари</catalogs>

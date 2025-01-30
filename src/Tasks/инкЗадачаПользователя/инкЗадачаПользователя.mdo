@@ -102,6 +102,23 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="6f5a0adf-834e-4044-a4fc-63130e0a3584">
+    <name>ОтображатьДиалогиВвидеДерева</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать диалоги ввиде дерева</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="e5bbe82b-b84a-412b-a7c5-ebf15553aa10">
     <name>ПрикрепленныеФайлы</name>
     <synonym>
@@ -183,6 +200,41 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cfadbb13-2197-45f0-bc9a-86426f59767e">
+    <name>ЗадачаПользователяИерархия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача пользователя (иерархия)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.инкЗадачаПользователяИерархия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="573d2461-b5af-47e5-bf5e-030fa5610209">
+    <name>СортировкаДиалогов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сортировка диалогов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -423,6 +475,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="12d5cc13-1c71-4edf-bc3c-29ceeb0ab46b">
+    <name>ФормаИзображениеПросмотр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просмотр изображения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <forms uuid="b4f48507-3f5a-4179-a28d-df6bb2197269">
     <name>ФормаСписка18</name>
     <synonym>
@@ -450,6 +511,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="bbfd1d8d-6dd8-4bbd-8986-3e8ade94b626">
+    <name>ДиалогКЗадачеМакет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог к задаче макет</value>
+    </synonym>
+  </templates>
   <commands uuid="685ea68a-dfaf-4d76-886e-017cee1a133d">
     <name>КомандаДоскаЗадачПользователей</name>
     <synonym>

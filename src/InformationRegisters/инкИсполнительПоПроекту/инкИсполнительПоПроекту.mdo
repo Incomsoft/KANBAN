@@ -16,6 +16,8 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.инкИсполнительПоПроекту.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.инкИсполнительПоПроекту.Form.ФормаСписка</defaultListForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
@@ -57,10 +59,10 @@
   </help>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="7b557529-28bc-45a3-90fd-32eedd3132fa">
-    <name>Пользователь</name>
+    <name>ПользовательУдалить</name>
     <synonym>
       <key>ru</key>
-      <value>Пользователь</value>
+      <value>Пользователь удалить</value>
     </synonym>
     <type>
       <types>CatalogRef.Пользователи</types>
@@ -87,4 +89,38 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <dimensions uuid="d50e780f-d5a6-445e-af45-0b0afcbfdc6a">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="52cc278c-6130-4462-b331-1cc6b1475bb3">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="34bc1e3e-d198-462b-b21a-5212788e0fbd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>

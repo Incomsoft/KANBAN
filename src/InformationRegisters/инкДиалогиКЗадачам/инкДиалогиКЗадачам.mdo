@@ -121,6 +121,27 @@
     </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <dimensions uuid="fbbc0c3c-8243-4373-a359-72c955db2f66">
+    <name>ИДСообщениеРодителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДСообщение родителя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
   <dimensions uuid="3f032aaa-6d63-458b-b67f-ea0cc1411bd7">
     <name>Проект</name>
     <synonym>

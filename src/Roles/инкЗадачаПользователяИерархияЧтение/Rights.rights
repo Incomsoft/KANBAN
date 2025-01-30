@@ -31,29 +31,24 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.инкИсполнительПоПроекту</name>
+		<name>Catalog.инкЗадачаПользователяИерархия</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 			<restrictionByCondition>
-				<condition>#ПоЗначениям( "РегистрСведений.инкИсполнительПоПроекту","","",
-"ГруппыПроектовКЗадачам","Проект",
+				<condition>#ПоЗначениям( "Справочник.инкЗадачаПользователяИерархия","","",
+"ГруппыПроектовКЗадачам","ЗадачаПользователя.Проект",
 "","",
 "","",
-"","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","")
-</condition>
+"","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","")</condition>
 			</restrictionByCondition>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
 		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>InputByString</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -90,49 +85,70 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.инкНаблюдателиПоПроектам.StandardAttribute.Active</name>
+		<name>Catalog.инкЗадачаПользователяИерархия.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.инкНаблюдателиПоПроектам.StandardAttribute.LineNumber</name>
+		<name>Catalog.инкЗадачаПользователяИерархия.StandardAttribute.Predefined</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.инкНаблюдателиПоПроектам.StandardAttribute.Recorder</name>
+		<name>Catalog.инкЗадачаПользователяИерархия.StandardAttribute.Ref</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.инкНаблюдателиПоПроектам.StandardAttribute.Period</name>
+		<name>Catalog.инкЗадачаПользователяИерархия.StandardAttribute.DeletionMark</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>CommonCommand.инкИсполнительПоПроекту</name>
+		<name>Catalog.инкЗадачаПользователяИерархия.StandardAttribute.IsFolder</name>
 		<right>
-			<name>View</name>
-			<value>true</value>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>CommonCommand.инкНаблюдателиПоПроектам</name>
+		<name>Catalog.инкЗадачаПользователяИерархия.StandardAttribute.Owner</name>
 		<right>
-			<name>View</name>
-			<value>true</value>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.инкНаблюдателиПоПроектам.Dimension.Проект</name>
+		<name>Catalog.инкЗадачаПользователяИерархия.StandardAttribute.Parent</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.инкЗадачаПользователяИерархия.StandardAttribute.Description</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.инкЗадачаПользователяИерархия.StandardAttribute.Code</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.инкЗадачаПользователяИерархия.Attribute.ЗадачаПользователя</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

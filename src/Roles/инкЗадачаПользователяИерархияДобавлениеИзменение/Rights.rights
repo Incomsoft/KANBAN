@@ -31,18 +31,21 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.инкИсполнительПоПроекту</name>
+		<name>Catalog.инкЗадачаПользователяИерархия</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 			<restrictionByCondition>
-				<condition>#ПоЗначениям( "РегистрСведений.инкИсполнительПоПроекту","","",
-"ГруппыПроектовКЗадачам","Проект",
+				<condition>#ПоЗначениям( "Справочник.инкЗадачаПользователяИерархия","","",
+"ГруппыПроектовКЗадачам","ЗадачаПользователя.Проект",
 "","",
 "","",
-"","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","")
-</condition>
+"","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","")</condition>
 			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
 		</right>
 		<right>
 			<name>Update</name>
@@ -53,7 +56,31 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMarkPredefinedData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMarkPredefinedData</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -87,55 +114,6 @@
 		<right>
 			<name>EditDataHistoryVersionComment</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.инкНаблюдателиПоПроектам.StandardAttribute.Active</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.инкНаблюдателиПоПроектам.StandardAttribute.LineNumber</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.инкНаблюдателиПоПроектам.StandardAttribute.Recorder</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.инкНаблюдателиПоПроектам.StandardAttribute.Period</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonCommand.инкИсполнительПоПроекту</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonCommand.инкНаблюдателиПоПроектам</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.инкНаблюдателиПоПроектам.Dimension.Проект</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<restrictionTemplate>

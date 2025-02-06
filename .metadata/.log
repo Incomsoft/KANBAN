@@ -31,3 +31,30 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com._1c.g5.v8.dt.platform.services.core 1 0 2023-11-24 14:44:17.405
 !MESSAGE All known SSH connectons released
+!SESSION 2025-02-06 15:43:26.707 -----------------------------------------------
+eclipse.buildId=2022.2.5.10
+java.version=11.0.18
+java.vendor=BellSoft
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.company1c.link.ide.edt 1 0 2025-02-06 15:43:35.598
+!MESSAGE iLOG: 1C:Link addon is initializing. Web config state is in D:\EDT\WorkSpace\Incomsoft_KANBAN\.metadata\.plugins\com.company1c.link.ide.edt
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2025-02-06 15:43:37.271
+!MESSAGE java.vm.name=OpenJDK 64-Bit Server VM
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2025-02-06 15:43:37.272
+!MESSAGE java.vm.info=mixed mode
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 1 0 2025-02-06 15:43:37.543
+!MESSAGE Trying to re-establish all non-closed SSH connecton...
+
+!ENTRY com._1c.g5.v8.dt.ui 1 0 2025-02-06 15:43:53.992
+!MESSAGE EDT закрывается
+
+!ENTRY org.eclipse.e4.ui.workbench.swt 1 0 2025-02-06 15:43:54.150
+!MESSAGE Saving dialog settings
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 1 0 2025-02-06 15:43:54.541
+!MESSAGE All known SSH connectons released

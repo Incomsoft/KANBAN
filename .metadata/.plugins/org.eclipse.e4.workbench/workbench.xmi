@@ -376,7 +376,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_hgjYUoq-Ee66--hSbvqTFg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_hhAER4q-Ee66--hSbvqTFg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="&#x41f;&#x435;&#x447;&#x430;&#x442;&#x44c;" enabled="false" command="_g0YPQIq-Ee66--hSbvqTFg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="__Nm6IOSHEe-MNfFkX5SSBA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="&#x41f;&#x435;&#x447;&#x430;&#x442;&#x44c;" command="_g0YPQIq-Ee66--hSbvqTFg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_hgjYU4q-Ee66--hSbvqTFg" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -401,7 +401,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_hgtJVIq-Ee66--hSbvqTFg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_hhAEVIq-Ee66--hSbvqTFg" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="&#x417;&#x430;&#x43a;&#x440;&#x435;&#x43f;&#x438;&#x442;&#x44c; &#x440;&#x435;&#x434;&#x430;&#x43a;&#x442;&#x43e;&#x440;" enabled="false" type="Check" command="_g0YO0oq-Ee66--hSbvqTFg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="__NryoOSHEe-MNfFkX5SSBA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="&#x417;&#x430;&#x43a;&#x440;&#x435;&#x43f;&#x438;&#x442;&#x44c; &#x440;&#x435;&#x434;&#x430;&#x43a;&#x442;&#x43e;&#x440;" enabled="false" type="Check" command="_g0YO0oq-Ee66--hSbvqTFg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_hgtJVYq-Ee66--hSbvqTFg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -2949,7 +2949,7 @@
   <addons xmi:id="_gz2DUIq-Ee66--hSbvqTFg" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
   <addons xmi:id="_g1khoIq-Ee66--hSbvqTFg" elementId="com.company1c.link.agent.publicator.addon.0" contributorURI="platform:/plugin/com.company1c.link.agent.publicator" contributionURI="bundleclass://com.company1c.link.agent.publicator/com.company1c.link.agent.publicator.PublicatorAddon"/>
   <addons xmi:id="_g1lvwYq-Ee66--hSbvqTFg" elementId="com.company1c.link.ide.edt.addon.0" contributorURI="platform:/plugin/com.company1c.link.ide.edt" contributionURI="bundleclass://com.company1c.link.ide.edt/com.company1c.link.ide.edt.addons.E4Addon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_-wYLkeSHEe-MNfFkX5SSBA" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_g0Od0Iq-Ee66--hSbvqTFg" elementId="org.eclipse.team.ui.category.team" name="&#x413;&#x440;&#x443;&#x43f;&#x43f;&#x43e;&#x432;&#x430;&#x44f; &#x440;&#x430;&#x437;&#x440;&#x430;&#x431;&#x43e;&#x442;&#x43a;&#x430;" description="Actions that apply when working with a version control system"/>
   <categories xmi:id="_g0Od0Yq-Ee66--hSbvqTFg" elementId="org.eclipse.ui.category.views" name="&#x41f;&#x430;&#x43d;&#x435;&#x43b;&#x438;" description="&#x41a;&#x43e;&#x43c;&#x430;&#x43d;&#x434;&#x44b; &#x434;&#x43b;&#x44f; &#x43e;&#x442;&#x43a;&#x440;&#x44b;&#x442;&#x438;&#x44f; &#x43f;&#x440;&#x430;&#x43d;&#x435;&#x43b;&#x435;&#x439;"/>
